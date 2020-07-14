@@ -1,23 +1,15 @@
-<?php
-
+<?php 
 
 $lang['From price'] = "From price";
 $lang['To price'] = "To price";
 $lang['FROM'] = "From";
 $lang['TO'] = "To";
 $lang[''] = "";
-$lang[''] = "";
 
-
-/* Custom template translations */
 $lang['Portalname'] = "pPoint";
 $lang['Portalslogan'] = "Real estate Agency<br>Portal script";
-$lang[''] = "";
-
 $lang['message_sent_successfully'] = "Message sent successfully, we will contact you as soon as possible";
 $lang['message_sent_error'] = "There was an error in sending the message";
-$lang[''] = "";
-
 $lang['FirstLast'] = "First and last name";
 $lang['Email'] = "Email";
 $lang['Phone'] = "Phone";
@@ -37,8 +29,6 @@ $lang['Usefullinks'] = "Useful links";
 $lang['Allproperties'] = "All properties";
 $lang['option_agree_terms'] = "Agree terms";
 $lang['Email or username'] = "Email or username";
-$lang[''] = "";
-
 $lang['Sale'] = "Sale";
 $lang['Rent'] = "Rent";
 $lang['CityorCounty'] = "Country, State, County, City, Neighborhood, Zip, Title, Address, ID...";
@@ -51,8 +41,6 @@ $lang['Realestates'] = "Real estates";
 $lang['Results'] = "Results";
 $lang['Locationonmap'] = "Location on map";
 $lang['Noestates'] = "No estates found";
-$lang[''] = "";
-
 $lang['Description'] = "Description";
 $lang['Generalamenities'] = "General amenities";
 $lang['Propertylocation'] = "Property location";
@@ -68,8 +56,6 @@ $lang['Fromprice'] = "Min. price";
 $lang['Toprice'] = "Max. price";
 $lang['Lastaddedproperties'] = "Latest properties";
 $lang['Propertyactivated'] = "Property isn't activated";
-$lang[''] = "";
-
 $lang['Login'] = "Login";
 $lang['Sign in'] = "Sign in";
 $lang['Reset'] = "Reset";
@@ -112,54 +98,51 @@ $lang['Agentestates'] = "Agent other estates";
 $lang['Please check GPS coordinates'] = "Please check GPS coordinates";
 $lang['News'] = "News";
 $lang['Latestnews'] = "Latest News";
-
-
-$lang['cal_su']			= "Su";
-$lang['cal_mo']			= "Mo";
-$lang['cal_tu']			= "Tu";
-$lang['cal_we']			= "We";
-$lang['cal_th']			= "Th";
-$lang['cal_fr']			= "Fr";
-$lang['cal_sa']			= "Sa";
-$lang['cal_sun']		= "Sun";
-$lang['cal_mon']		= "Mon";
-$lang['cal_tue']		= "Tue";
-$lang['cal_wed']		= "Wed";
-$lang['cal_thu']		= "Thu";
-$lang['cal_fri']		= "Fri";
-$lang['cal_sat']		= "Sat";
-$lang['cal_sunday']		= "Sunday";
-$lang['cal_monday']		= "Monday";
-$lang['cal_tuesday']	= "Tuesday";
-$lang['cal_wednesday']	= "Wednesday";
-$lang['cal_thursday']	= "Thursday";
-$lang['cal_friday']		= "Friday";
-$lang['cal_saturday']	= "Saturday";
-$lang['cal_jan']		= "Jan";
-$lang['cal_feb']		= "Feb";
-$lang['cal_mar']		= "Mar";
-$lang['cal_apr']		= "Apr";
-$lang['cal_may']		= "May";
-$lang['cal_jun']		= "Jun";
-$lang['cal_jul']		= "Jul";
-$lang['cal_aug']		= "Aug";
-$lang['cal_sep']		= "Sep";
-$lang['cal_oct']		= "Oct";
-$lang['cal_nov']		= "Nov";
-$lang['cal_dec']		= "Dec";
-$lang['cal_january']	= "January";
-$lang['cal_february']	= "February";
-$lang['cal_march']		= "March";
-$lang['cal_april']		= "April";
-$lang['cal_mayl']		= "May";
-$lang['cal_june']		= "June";
-$lang['cal_july']		= "July";
-$lang['cal_august']		= "August";
-$lang['cal_september']	= "September";
-$lang['cal_october']	= "October";
-$lang['cal_november']	= "November";
-$lang['cal_december']	= "December"; 
-
+$lang['cal_su'] = "Su";
+$lang['cal_mo'] = "Mo";
+$lang['cal_tu'] = "Tu";
+$lang['cal_we'] = "We";
+$lang['cal_th'] = "Th";
+$lang['cal_fr'] = "Fr";
+$lang['cal_sa'] = "Sa";
+$lang['cal_sun'] = "Sun";
+$lang['cal_mon'] = "Mon";
+$lang['cal_tue'] = "Tue";
+$lang['cal_wed'] = "Wed";
+$lang['cal_thu'] = "Thu";
+$lang['cal_fri'] = "Fri";
+$lang['cal_sat'] = "Sat";
+$lang['cal_sunday'] = "Sunday";
+$lang['cal_monday'] = "Monday";
+$lang['cal_tuesday'] = "Tuesday";
+$lang['cal_wednesday'] = "Wednesday";
+$lang['cal_thursday'] = "Thursday";
+$lang['cal_friday'] = "Friday";
+$lang['cal_saturday'] = "Saturday";
+$lang['cal_jan'] = "Jan";
+$lang['cal_feb'] = "Feb";
+$lang['cal_mar'] = "Mar";
+$lang['cal_apr'] = "Apr";
+$lang['cal_may'] = "May";
+$lang['cal_jun'] = "Jun";
+$lang['cal_jul'] = "Jul";
+$lang['cal_aug'] = "Aug";
+$lang['cal_sep'] = "Sep";
+$lang['cal_oct'] = "Oct";
+$lang['cal_nov'] = "Nov";
+$lang['cal_dec'] = "Dec";
+$lang['cal_january'] = "January";
+$lang['cal_february'] = "February";
+$lang['cal_march'] = "March";
+$lang['cal_april'] = "April";
+$lang['cal_mayl'] = "May";
+$lang['cal_june'] = "June";
+$lang['cal_july'] = "July";
+$lang['cal_august'] = "August";
+$lang['cal_september'] = "September";
+$lang['cal_october'] = "October";
+$lang['cal_november'] = "November";
+$lang['cal_december'] = "December";
 $lang['Ads'] = "Sponsor";
 $lang['MyLocation'] = "My Location";
 $lang['Company'] = "Company";
@@ -171,12 +154,6 @@ $lang['Download'] = "Download";
 $lang['Question'] = "Question";
 $lang['Expert question from real-estate web'] = "Expert question from real-estate web";
 $lang['CustomMap'] = "Custom Map";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
 $lang['Rates'] = "Rates";
 $lang['From'] = "From";
 $lang['To'] = "To";
@@ -218,12 +195,6 @@ $lang['Todate'] = "To date";
 $lang['Expired'] = "Expired";
 $lang['PriceASC'] = "By price ASC";
 $lang['PriceDESC'] = "By price DESC";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
-
 $lang['Mypackage'] = "My package";
 $lang['Not available'] = "Not available";
 $lang['Buy/Extend'] = "Buy/Extend";
@@ -254,42 +225,18 @@ $lang['ToTop'] = "Back to top";
 $lang['RefreshResults'] = "Refresh results";
 $lang['CustomFilters'] = "Custom Filters";
 $lang['No reservations available'] = "No reservations available";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
 $lang['Not activated'] = "Not activated";
 $lang['Package name'] = "Package name";
 $lang['Flexible'] = "Flexible";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
-// Agent masking
 $lang['YouAre'] = "You are";
 $lang['Individual'] = "Individual";
 $lang['Dealer'] = "Dealer";
 $lang['YourName'] = "Your Name";
-$lang['Phone'] = "Phone";
-$lang['Email'] = "Email";
 $lang['I allow agent and affilities to contact me'] = "I allow agent and affilities to contact me";
 $lang['Submit'] = "Submit";
 $lang['Show file details'] = "Show file details";
 $lang['Show agent contact details'] = "Show agent contact details";
-$lang['I allow agent and affilities to contact me'] = "I allow agent and affilities to contact me";
 $lang['Masking submission from real-estate web'] = "Masking submission from real-estate web";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
-// Reviews
 $lang['Reviews'] = "Reviews";
 $lang['Rating'] = "Rating";
 $lang['YourReview'] = "Your Review";
@@ -315,18 +262,10 @@ $lang['should be unique'] = "should be unique";
 $lang['Advertisements'] = "Advertisements";
 $lang['AddPropertydata'] = "Add property data";
 $lang['EditPropertydata'] = "Edit property data";
-$lang[''] = "";
-
-// SMS api
 $lang['Your code'] = "Your code";
 $lang['Verification link'] = "Verification link";
 $lang['Your phone number verification'] = "Your phone number verification";
 $lang['Like to view hidden content.'] = "Like to view hidden content.";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
-// email activation
 $lang['Activate your account'] = "Activate your account";
 $lang['name_surname'] = "Name and surname";
 $lang['activation_link'] = "Activation link";
@@ -335,16 +274,6 @@ $lang['Thanks on registration, please check and activate your email to login'] =
 $lang['login_link'] = "Login link";
 $lang['PhoneAdd'] = "(With country code)";
 $lang['Address not found!'] = "Address not found!";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
-// Like to unlock
-$lang['Like to view hidden content.'] = "Like to view hidden content.";
-$lang[''] = "";
-
-
-// Research
 $lang['SaveSearch'] = "Save Search";
 $lang['SaveResearch'] = "Save";
 $lang['Myresearch'] = "My research";
@@ -358,10 +287,6 @@ $lang['Editresearch'] = "Edit research";
 $lang['Lang code'] = "Lang code";
 $lang['Load'] = "Load";
 $lang['I Agree To The Terms & Conditions'] = "I Agree To The Terms & Conditions";
-$lang['option_agree_terms'] = "Agree terms";
-$lang[''] = "";
-
-
 $lang['Website slogan'] = "Only Real Estate Solution You Will Ever Need";
 $lang['E-mail'] = "E-mail";
 $lang['Logo slogan'] = "Real Estate &amp; Booking <br/> customizable solution";
@@ -390,18 +315,8 @@ $lang['properties in catalogue'] = "properties in catalogue";
 $lang['Assigned Properties'] = "Assigned Properties";
 $lang['Radius'] = "Radius";
 $lang['km'] = "km";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
 $lang['Km'] = "km";
 $lang['Min'] = "min";
-$lang[''] = "";
-
-// Add to favorites
 $lang['Favorite already exists!'] = "Favorite already exists!";
 $lang['Favorite added!'] = "Favorite added!";
 $lang['Remove from favorites'] = "Remove from favorites";
@@ -412,23 +327,14 @@ $lang['Property'] = "Property";
 $lang['Language'] = "Language";
 $lang['Open'] = "Open";
 $lang['We could not find any'] = "We could not find any";
-$lang['Address not found!'] = "Address not found!";
 $lang['Interested for this property'] = "Interested for this property";
 $lang['Parameters not defined!'] = "Parameters not defined!";
 $lang['Changes saved!'] = "Changes saved!";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
-
-// TreeField
 $lang['No values found'] = "No values found";
 $lang['treefield_64_0'] = "Select Province";
 $lang['treefield_64_1'] = "Select City";
 $lang['treefield_64_2'] = "Select Zone";
 $lang['treefield_64_3'] = "Select Neighbourhood";
-$lang[''] = "";
-
 $lang['Toggle navigation'] = "Toggle navigation";
 $lang['ESTATE BOOKING'] = "ESTATE BOOKING";
 $lang['My messages'] = "My inquiries";
@@ -448,9 +354,6 @@ $lang['Follow us'] = "Follow us";
 $lang['About us'] = "About us";
 $lang['About us description'] = "InfinityMarket MultiPurpose Script is a multi-solution product made with simplicity in mind so you can benefit as much as possible from it.";
 $lang['Website sitemap'] = "Website sitemap";
-$lang[''] = "";
-
-//palette
 $lang['Style Builder'] = "Style Builder";
 $lang['Layout options'] = "Layout options";
 $lang['I prefer it'] = "I prefer it";
@@ -482,20 +385,17 @@ $lang['New'] = "New";
 $lang['Predefined schemes'] = "Predefined schemes";
 $lang['Black and white'] = "Black and white";
 $lang['Flat'] = "Flat";
-$lang['Accept cookiebar'] = "In order for this site to work correctly, and for us to improve the site we need to store a small file (called a cookie) on your computer.<br>Most every site in the world does this, however it seems that now, by law, we have to get your permission first.<br/>If you click agree below we will store all needed cookies and you'll notice no diffence, if you click on I don't agree (and while you don't click on I agree) we will not store cookies other than the strictly necessary ones.<br>But in that case you will not be able to post comments, see and use social buttons, etc.";
+$lang['Accept cookiebar'] = "In order for this site to work correctly, and for us to improve the site we need to store a small file &#40;called a cookie&#41; on your computer.<br>Most every site in the world does this, however it seems that now, by law, we have to get your permission first.<br/>If you click agree below we will store all needed cookies and you'll notice no diffence, if you click on I don't agree (and while you don't click on I agree) we will not store cookies other than the strictly necessary ones.<br>But in that case you will not be able to post comments, see and use social buttons, etc.";
 $lang['I Agree'] = "I Agree";
 $lang['I dont agree'] = "I don't agree";
 $lang['Additional details'] = "Additional details";
 $lang['Map'] = "Map";
 $lang['Social media'] = "Social media";
 $lang['PDF export'] = "PDF export";
-$lang['Submit Property'] = "Submit Property";
-$lang[''] = "";
-
 $lang['Copy to other languages'] = "Copy to other languages";
 $lang['Translate to other languages'] = "Translate to other languages";
 $lang['What our clients say'] = "What our clients say";
-$lang["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."] = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
+$lang['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'] = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
 $lang['John Doe, The Company Inc'] = "John Doe, The Company Inc.";
 $lang['Search text'] = "Search text";
 $lang['Seen enough'] = "Seen enough";
@@ -513,14 +413,9 @@ $lang['Casting-uri New Media'] = "Casting-uri New Media";
 $lang['Listing categories'] = "Listing categories";
 $lang['edit page'] = "edit page";
 $lang['edit category'] = "edit category";
-$lang['Facebook'] = "Facebook";
 $lang['Frequently asked questions'] = "";
-$lang['It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'] = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.";
-$lang[''] = "";
-$lang[''] = "";
-$lang[''] = "";
 
-// Rectangle drawing
+$lang['It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'] = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.";
 $lang['DrawRectangle'] = "Draw Rectangle";
 $lang['Rectangle moved'] = "Rectangle moved";
 $lang['New north-east corner'] = "New north-east corner";
@@ -529,9 +424,6 @@ $lang['Unsuccessful, possible permission problems or file not exists'] = "Unsucc
 $lang['Limitation by package'] = "Limitation by package";
 $lang['users in the last 30 minutes'] = "users in the last 30 minutes";
 $lang['This property has been seen by other'] = "This property has been seen by other";
-$lang[''] = "";
-$lang[''] = "";
-
 $lang['join us'] = "join us";
 $lang['PUBLICATION OF PROPERTY'] = "PUBLICATION OF PROPERTY";
 $lang['Click to show'] = "Click to show";
@@ -564,15 +456,12 @@ $lang['Put a good price'] = "Put a good price";
 $lang['Add nice looking photos to your listing'] = "Add nice looking photos to your listing";
 $lang['Already registered?'] = "Already registered?";
 $lang['Then login here'] = "Then login here";
-$lang['Toggle navigation'] = "Toggle navigation";
 $lang['Log In'] = "Log In";
 $lang['Add Listing'] = "Add Listing";
 $lang['Discover places that people love'] = "Discover places that people love";
 $lang['We will help you to find the best places to spend time in any city in the world.'] = "We will help you to find the best places to spend time in any city in the world.";
-$lang['Quick add listing'] = "Quick add listing";
 $lang['I’m looking for...'] = "I’m looking for...";
 $lang['Maecenas mauris arcu, congue ac lorem vel libero.'] = "Maecenas mauris arcu, congue ac lorem vel libero.";
-$lang['Location'] = "Location";
 $lang['Chose Category You Want'] = "Chose Category You Want";
 $lang['Curabitur commodo orci lacus, in lacinia ligula porta vitae.'] = "Curabitur commodo orci lacus, in lacinia ligula porta vitae.";
 $lang['This can be small description'] = "This can be small description";
@@ -580,8 +469,6 @@ $lang['Recent Reviews'] = "Recent Reviews";
 $lang['Donecos a lacus ut nisl mattis sodales.'] = "Donecos a lacus ut nisl mattis sodales.";
 $lang['review for'] = "review for";
 $lang['Articles & Tips'] = "Articles & Tips";
-$lang['Curabitur commodo orci lacus, in lacinia ligula porta vitae.'] = "Curabitur commodo orci lacus, in lacinia ligula porta vitae.";
-$lang['Results'] = "Results";
 $lang['Results Found'] = "Results Found";
 $lang['Select category'] = "Select category";
 $lang['Made in'] = "Made in";
@@ -597,7 +484,6 @@ $lang['description_4'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi 
 $lang['Popular Places'] = "Popular Places";
 $lang['Custom Filter'] = "Custom Filter";
 $lang['Start Exploring Today'] = "Start Exploring Today";
-$lang['Search'] = "Search";
 $lang['Get in touch with us'] = "Get in touch with us";
 $lang['Wide Map'] = "Wide Map";
 $lang['Reviews & Tips'] = "Reviews & Tips";
@@ -614,7 +500,6 @@ $lang['Send Message'] = "Send Message";
 $lang['Energy efficient'] = "Energy efficient";
 $lang['Contact Us'] = "Contact Us";
 $lang['Pdf Export'] = "Pdf Export";
-$lang['QR code'] = "QR code";
 $lang['will help to discover perfect places.'] = "will help to discover perfect places.";
 $lang['Perfect experience at the city.'] = "Perfect experience at the city.";
 $lang['Locations'] = "Locations";
@@ -629,11 +514,8 @@ $lang['location_description_2'] = "Nam quis turpis id turpis viverra sodales vel
 $lang['location_description_3'] = "Nam quis turpis id turpis viverra sodales vellectus. Duis in iaculis tellus. Mauris vel vehicula erat, et bibendum nunc.";
 $lang['location_description_4'] = "Nam quis turpis id turpis viverra sodales vellectus. Duis in iaculis tellus. Mauris vel vehicula erat, et bibendum nunc.";
 $lang['Walkscore'] = "Walkscore";
-$lang['Curabitur commodo orci lacus, in lacinia ligula porta vitae.'] = "Curabitur commodo orci lacus, in lacinia ligula porta vitae.";
 $lang['View Post'] = "View Post";
-$lang['Get in touch with us'] = "Get in touch with us";
 $lang['Log in to'] = "Log in to";
-$lang['Username'] = "Username";
 $lang['Log In With Facebook'] = "Log In With Facebook";
 $lang['Forgot Password?'] = "Forgot Password?";
 $lang['Reset password'] = "Reset password";
@@ -642,7 +524,6 @@ $lang['New to'] = "New to";
 $lang['Create An Account'] = "Create An Account";
 $lang['Already on'] = "Already on";
 $lang['Contacts'] = "Contacts";
-$lang['Chose Category You Want'] = "Chose Category You Want";
 $lang['What?'] = "What?";
 $lang['Where?'] = "Where?";
 $lang['Advertisement'] = "Advertisement";
@@ -653,23 +534,19 @@ $lang['Buy Now'] = "Buy Now";
 $lang['Our Top Destinations'] = "Our Top Destinations";
 $lang['Get Business Exposure'] = "Get Business Exposure";
 $lang['get_business_description'] = "Your business deserves efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverable for real -time schemas. Dramatically maintain cloak-and-mortar solutions without functional solutions.";
-$lang['How it Works'] = "How it Works";
 $lang['login'] = "login";
 $lang['register'] = "register";
 $lang['Please'] = "Please";
-$lang['or'] = "or";
 $lang['to write your review'] = "to write your review";
 $lang['See more results'] = "See more results";
 $lang['Less results'] = "Less results";
 $lang['Select region'] = "Select region";
 $lang['Popular region'] = "Popular region";
 $lang['Remove'] = "Remove";
-$lang['Save'] = "Save";
 $lang['Review'] = "Review";
 $lang['Choose'] = "Choose";
 $lang['Theme'] = "Theme";
 $lang['Distance around my position'] = "Distance around my position";
-$lang['Categories'] = "Categories";
 $lang['Social Media'] = "Social Media";
 $lang['Distance around position'] = "Distance around position";
 $lang['Discoused'] = "Discoused";
@@ -684,7 +561,6 @@ $lang['Perfect_description'] = "Morbi acuman ipsum velit. Nam nec telus a odio t
 $lang['Highly_description'] = "Morbi acuman ipsum velit. Nam nec telus a odio tin cidunt auctor a ornare odio. Sed non maris vitae erat conuat auctor euin elit. Class aptent taciti senim.";
 $lang['Companies_description'] = "Morbi acuman ipsum velit. Nam nec telus a odio tin cidunt auctor a ornare odio. Sed non maris vitae erat conuat auctor euin elit. Class aptent taciti senim.";
 $lang['app_description'] = "Aliquam augue vitae nisi faucibus, utricies mtus accumsan. Broder eletum diam sit amet opus vulputate. Praesent fermentum, felis sit amet lobortis euismod, massa leo efficitur tortor, at lacinia mi orci eu purus.";
-$lang[''] = "";
 $lang['Save Design'] = "Save Design";
 $lang['Estate'] = "Estate";
 $lang['Name and surname'] = "Name and surname";
@@ -749,7 +625,7 @@ $lang['Keep me logged in'] = "Keep me logged in";
 $lang['Forgot password?'] = "Forgot password?";
 $lang['Sign In'] = "Sign In";
 $lang['Continue With Facebook'] = "Continue With Facebook";
-$lang["Don't have a account?"] = "Don't have a account?";
+$lang['Don\'t have a account?'] = "Don't have a account?";
 $lang['Sign Up'] = "Sign Up";
 $lang['Millions of jobs. Find yours'] = "Millions of jobs. Find yours";
 $lang['Already have a Monster account?'] = "Already have a Monster account?";
@@ -873,7 +749,6 @@ $lang['To start getting recommendations'] = "To start getting recommendations";
 $lang['upload a resume'] = "upload a resume";
 $lang['or complete a job application.'] = "or complete a job application.";
 $lang['By continuing you agree to our Privacy Policy Terms of Use and use of cookies.'] = "By continuing you agree to our Privacy Policy Terms of Use and use of cookies.";
-$lang['or'] = "or";
 $lang['AGENT'] = "HR";
 $lang['USER'] = "EMPLOYER";
 $lang['Footer_information_text'] = "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.";
@@ -881,17 +756,13 @@ $lang['discover_widget_description'] = "Aenean sollicitudin, lorem quis bibendum
 $lang['explore_perfect_description'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['explore_perfect_search'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['explore_perfect_control'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
-
 $lang['Web page'] = "Web page";
 $lang['Agent Details'] = "Agent Details";
-
 $lang['explore2_perfect_description'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['explore2_perfect_search'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['explore2_perfect_control'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['explore2_support'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['categories_presentation_description'] = "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. ";
-
-
 $lang['Sign out'] = "Sign out";
 $lang['Selio theme made in EU. All Rights Reserved'] = "Selio theme made in EU. All Rights Reserved";
 $lang['Not translatable'] = "Not translatable";
@@ -933,7 +804,7 @@ $lang['Surname'] = "Surname";
 $lang['Your Surname'] = "Your Surname";
 $lang['Upload Document'] = "Upload Document";
 $lang['Report send'] = "Report send";
-$lang['432 Park Ave, New York, NY 10022'] = "432 Park Ave, New York, NY 10022";
+$lang['432 Park Ave, New York, NY 10022'] = "2160 N Central Rd #112 Fort Lee, NJ 07024";
 $lang['Aditional Information'] = "Aditional Information";
 $lang['Helpful Links'] = "Helpful Links";
 $lang['Follow Us'] = "Follow Us";
@@ -982,7 +853,6 @@ $lang['Discover best properties in one place'] = "Discover best properties in on
 $lang['Testimonials'] = "Testimonials";
 $lang['Kritsofer Nolan'] = "Kritsofer Nolan";
 $lang['Property Owner'] = "Property Owner";
-    
 $lang['footer_description'] = "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat co nsequat auctor eu in elit.";
 $lang['testimonials1'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
 $lang['testimonials2'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
@@ -990,7 +860,6 @@ $lang['testimonials3'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi 
 $lang['testimonials4'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
 $lang['testimonials5'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
 $lang['testimonials6'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
-
 $lang['I accept the GDPR'] = "I accept the GDPR";
 $lang['Sort by'] = "Sort by";
 $lang['Print'] = "Print";
@@ -1019,11 +888,9 @@ $lang['min'] = "min";
 $lang['mins'] = "mins";
 $lang['Search term'] = "Search term";
 $lang['Gas emission'] = "Gas emission";
-$lang['Energy efficient'] = "Energy efficient";
 $lang['Thanks on submission, waiting for approve, please check your email'] = "Thanks on submission, waiting for approve, please check your email";
 $lang['Thanks on submission, please check your email'] = "Thanks on submission, please check your email";
 $lang['Not selected'] = "Not selected";
-
 $lang['No Efficiency'] = "No Efficiency";
 $lang['No Gas'] = "No Gas";
 $lang['Office hours'] = "Office hours";
@@ -1035,3 +902,5 @@ $lang['I’m agent broker'] = "I’m agent broker";
 $lang['Request info'] = "Request info";
 $lang['Other Contact Information'] = "Other Contact Information";
 $lang['212 5th Ave, New York'] = "212 5th Ave, New York";
+
+?>
