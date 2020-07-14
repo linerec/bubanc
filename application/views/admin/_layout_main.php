@@ -13,12 +13,12 @@
 		  </button>
 		  <a href="<?php echo site_url('admin/dashboard')?>" class="navbar-brand">
 
-                    <?php if(file_exists(FCPATH.'/templates/'.$settings['template'].'/assets/img/logo-system-mini.png')):?>
+                    <?php if(file_exists(FCPATH.'/templates/'.$settings['template'].'/assets/img/logo-icon.png')):?>
                         <img src="<?php echo base_url('templates/'.$settings['template'].'/assets/img/logo-system-mini.png')?>">
                     <?php else:?>
                         <img src="<?php echo base_url('admin-assets/img/custom/logo-system-mini.png');?>" />
                     <?php endif;?>
-                    Real estate <span class="bold">point</span></a>
+                    BuBanc <span class="bold">Agent Panel</span></a>
 		</div>
       <!-- Site name for smallar screens -->
 
