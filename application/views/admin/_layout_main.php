@@ -13,8 +13,8 @@
 		  </button>
 		  <a href="<?php echo site_url('admin/dashboard')?>" class="navbar-brand">
 
-                    <?php if(file_exists(FCPATH.'/templates/'.$settings['template'].'/assets/img/logo-icon.png')):?>
-                        <img src="<?php echo base_url('templates/'.$settings['template'].'/assets/img/logo-system-mini.png')?>">
+                    <?php if(file_exists(FCPATH.'/templates/'.$settings['template'].'/assets/img/logo_icon.png')):?>
+                        <img src="<?php echo base_url('templates/'.$settings['template'].'/assets/img/logo_icon.png')?>">
                     <?php else:?>
                         <img src="<?php echo base_url('admin-assets/img/custom/logo-system-mini.png');?>" />
                     <?php endif;?>
