@@ -1,8 +1,8 @@
 <?php
 
 /* Base translations */
-$lang['lang_shortcode_2ch'] = "en";
-$lang['app_name'] = 'Real Estate Point';
+$lang['lang_shortcode_2ch'] = "kr";
+$lang['app_name'] = 'BuBanc';
 
 /* Base */
 $lang['View All'] = "View all";
