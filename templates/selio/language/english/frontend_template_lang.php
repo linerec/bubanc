@@ -1,5 +1,6 @@
 <?php 
 
+$lang['MainBannerText'] = "부동산뱅크 똑똑이! <b>부뱅이가 모두 드립니다!</b> 모바일에서 글 등록 제공, 사진 등록 무료! 동영상 등록 무료!";
 $lang['From price'] = "From price";
 $lang['To price'] = "To price";
 $lang['FROM'] = "From";
@@ -758,10 +759,10 @@ $lang['explore_perfect_search'] = "Aenean sollicitudin, lorem quis bibendum auct
 $lang['explore_perfect_control'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
 $lang['Web page'] = "Web page";
 $lang['Agent Details'] = "Agent Details";
-$lang['explore2_perfect_description'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
-$lang['explore2_perfect_search'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
-$lang['explore2_perfect_control'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
-$lang['explore2_support'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit conseat ipsum, nec sagittis sem nibh.";
+$lang['explore2_perfect_description'] = "Read about your rights";
+$lang['explore2_perfect_search'] = "Stay on top of the latest market trends";
+$lang['explore2_perfect_control'] = "Become at expert on byung NYC";
+$lang['explore2_support'] = "News, living, trends and market data";
 $lang['categories_presentation_description'] = "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. ";
 $lang['Sign out'] = "Sign out";
 $lang['Selio theme made in EU. All Rights Reserved'] = "Selio theme made in EU. All Rights Reserved";
@@ -836,10 +837,10 @@ $lang['Discover the Best Properties'] = "Discover the Best Properties";
 $lang['Discover a home you\'ll love to stay'] = "Discover a home you'll love to stay";
 $lang['Explore Features'] = "Explore Features";
 $lang['Service You Need'] = "Service You Need";
-$lang['Perfect Tools'] = "Perfect Tools";
-$lang['Search in Click'] = "Search in Click";
-$lang['User Control'] = "User Control";
-$lang['5 Star Support'] = "5 Star Support";
+$lang['Perfect Tools'] = "Fair Housing in NYC";
+$lang['Search in Click'] = "NYC Data Dashboard";
+$lang['User Control'] = "Tips & Ad ice";
+$lang['5 Star Support'] = "One Block Over";
 $lang['Location should be more then 4'] = "Location should be more then 4";
 $lang['Find Perfect Place'] = "Find Perfect Place";
 $lang['Trusted by the Best'] = "Trusted by the Best";

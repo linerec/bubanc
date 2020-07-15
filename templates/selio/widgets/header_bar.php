@@ -25,14 +25,6 @@ Widget-preview-image: /assets/img/widgets_preview/header_bar.webp
                         <?php 
                             $justNums = preg_replace("/[^0-9]/", '',  _ch($settings_phone,'#'));
                         ?>
-                        <a href="tel://<?php echo $justNums;?>">
-                            <i class="la la-phone-square"></i>
-                            <span> {settings_phone}</span>
-                        </a>
-                        <a href="mailto:{settings_email}">
-                            <i class="la la-envelope-o"></i>
-                            <span>{settings_email}</span>
-                        </a>
                         <?php if(config_db_item('property_subm_disabled')==FALSE):  ?>
                         <a href="{front_login_url}#content" class="login_popup_enabled"><i class="la la-user"></i> <span>{lang_Login}</span></a>
                         <?php endif;?>
@@ -81,9 +73,9 @@ Widget-preview-image: /assets/img/widgets_preview/header_bar.webp
             </div>
             {not_logged}
             <?php if(sw_count($lang_array) > 1):?> 
-            <div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-6">
+            <div class="col-xl-3 col-lg-2 col-md-2 col-sm-6 col-6 d-none">
             <?php else:?>
-            <div class="col-xl-3 col-md-5 col-sm-12">
+            <div class="col-xl-3 col-md-5 col-sm-12 d-none">
             <?php endif;?>
                 <div class="header-social">
                     <a href="#">
@@ -104,7 +96,7 @@ Widget-preview-image: /assets/img/widgets_preview/header_bar.webp
             {is_logged_other}
             <?php if(sw_count($lang_array) > 1):?> 
             <?php else:?>
-            <div class="col-xl-3 col-md-5 col-sm-12">
+            <div class="col-xl-3 col-md-5 col-sm-12 d-none">
                 <div class="header-social">
                     <a href="#">
                         <i class="fa fa-facebook"></i>
