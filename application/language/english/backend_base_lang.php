@@ -105,6 +105,8 @@ $lang['ToDate'] = "To Date";
 $lang[''] = "";
 $lang[''] = "";
 
+$lang['GoBackToSite'] = "Go Back to The Site";
+
 /* Pages */
 $lang['Pages'] = "Pages";
 $lang['Add a page'] = "Add a page";

@@ -5,26 +5,29 @@
     <div class="containerk">
       <!-- Menu button for smallar screens -->
 		<div class="navbar-header">
-		  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a href="<?php echo site_url('admin/dashboard')?>" class="navbar-brand">
-
-                    <?php if(file_exists(FCPATH.'/templates/'.$settings['template'].'/assets/img/logo_icon.png')):?>
-                        <img src="<?php echo base_url('templates/'.$settings['template'].'/assets/img/logo_icon.png')?>">
-                    <?php else:?>
-                        <img src="<?php echo base_url('admin-assets/img/custom/logo-system-mini.png');?>" />
-                    <?php endif;?>
-                    BuBanc <span class="bold">Agent Panel</span></a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="<?php echo site_url('admin/dashboard')?>" class="navbar-brand">
+          <?php if(file_exists(FCPATH.'/templates/'.$settings['template'].'/assets/img/logo_icon.png')):?>
+              <img src="<?php echo base_url('templates/'.$settings['template'].'/assets/img/logo_icon.png')?>">
+          <?php else:?>
+              <img src="<?php echo base_url('admin-assets/img/custom/logo-system-mini.png');?>" />
+          <?php endif;?>
+          BuBanc <span class="bold">Agent Panel</span>
+        </a>
 		</div>
       <!-- Site name for smallar screens -->
 
       <!-- Navigation starts -->
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">     
 
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="<?php echo site_url('/'); ?>" target="_blank"><?php echo lang_check('GoBackToSite'); ?></a></li>
+        </ul>
         <!-- Links -->
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">            
