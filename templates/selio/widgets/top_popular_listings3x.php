@@ -52,14 +52,6 @@ $CI->generate_results_array($top_n_estates, $top_estates, $options_name);
                     <?php endforeach;?>
                 </div>
             </div>
-            <?php foreach($top_estates as $key=>$item): ?>
-                <?php _generate_results_item(array('key'=>$key, 'item'=>$item, 'custom_class'=>'col-lg-4 col-md-6')); ?>
-            <?php endforeach;?>
-            <div class="col-lg-12">
-                <div class="load-more-posts">
-                    <a href="<?php echo site_url($lang_code.'/'.get_results_page_id(6));?>" title="" class="btn2"><?php echo lang_check('Load More');?></a>
-                </div><!--load-more end-->
-            </div>
         </div>
     </div>
 </section>

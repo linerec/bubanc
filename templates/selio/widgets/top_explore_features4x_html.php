@@ -19,11 +19,11 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features4x_html.we
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-4 col-sm-5 col-xs-12">
+                                <div class="col-md-4 col-sm-5 col-3">
                                     <i class="icon-home hidden"></i>
                                     <img src="assets/img/icons/financial/finance_icon_01.png" alt="Financial_01" />
                                 </div>
-                                <div class="col-md-8 col-sm-7 col-xs-12">
+                                <div class="col-md-8 col-sm-7 col-9">
                                     <h3><?php echo lang_check('Perfect Tools');?></h3>
                                     <p><?php echo lang_check('explore2_perfect_description');?></p>
                                 </div>
@@ -37,11 +37,11 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features4x_html.we
                     <div class="card">
                         <div class="card-body">
                         <div class="row">
-                                <div class="col-md-4 col-sm-5 col-xs-12">
+                                <div class="col-md-4 col-sm-5 col-3">
                                     <i class="icon-cursor hidden"></i>
                                     <img src="assets/img/icons/financial/finance_icon_02.png" alt="Financial_02" />
                                 </div>
-                                <div class="col-md-8 col-sm-7 col-xs-12">
+                                <div class="col-md-8 col-sm-7 col-9">
                                     <h3><?php echo lang_check('Search in Click');?></h3>
                                     <p><?php echo lang_check('explore2_perfect_search');?></p>
                                 </div>
@@ -55,11 +55,11 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features4x_html.we
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-4 col-sm-5 col-xs-12">
+                                <div class="col-md-4 col-sm-5 col-3">
                                     <i class="icon-lock hidden"></i>
                                     <img src="assets/img/icons/financial/finance_icon_03.png" alt="Financial_03" />
                                 </div>
-                                <div class="col-md-8 col-sm-7 col-xs-12">
+                                <div class="col-md-8 col-sm-7 col-9">
                                     <h3><?php echo lang_check('User Control');?></h3>
                                     <p><?php echo lang_check('explore2_perfect_control');?></p>
                                 </div>
@@ -73,18 +73,18 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features4x_html.we
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-4 col-sm-5 col-xs-12">
+                                <div class="col-md-4 col-sm-5 col-3">
                                     <i class="la la-star-o hidden"></i>
                                     <img src="assets/img/icons/financial/finance_icon_04.png" alt="Financial_04" />
                                 </div>
-                                <div class="col-md-8 col-sm-7 col-xs-12">
+                                <div class="col-md-8 col-sm-7 col-9">
                                     <h3 class=""><?php echo lang_check('5 Star Support');?></h3>
                                     <p class=""><?php echo lang_check('explore2_support');?></p>
                                 </div>
                             </div>
                         </div>
                     </div><!--card end-->
-		</a>
+		        </a>
             </div>
         </div>
     </div>
