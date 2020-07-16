@@ -1,0 +1,589 @@
+<Records>	
+  <co00>00000New Jersey</co00>
+	<co01>01000Atlantic, NJ</co01>
+	<co01>01001Absecon, NJ</co01>
+	<co01>01003Atlantic City, NJ</co01>
+	<co01>01005Brigantine, NJ</co01>
+	<co01>01007Buena, NJ</co01>
+	<co01>01009Buena Vista, NJ</co01>
+	<co01>01011Corbin City, NJ</co01>
+	<co01>01013Egg Harbor City, NJ</co01>
+	<co01>01015Egg Harbor Township, NJ</co01>
+	<co01>01017Estell Manor, NJ</co01>
+	<co01>01019Folsom, NJ</co01>
+	<co01>01021Galloway Township, NJ</co01>
+	<co01>01023Hamilton Township, NJ</co01>
+	<co01>01025Hammonton, NJ</co01>
+	<co01>01027Linwood, NJ</co01>
+	<co01>01029Longport, NJ</co01>
+	<co01>01031Margate City, NJ</co01>
+	<co01>01033Mullica Township, NJ</co01>
+	<co01>01035Northfield, NJ</co01>
+	<co01>01037Pleasantville, NJ</co01>
+	<co01>01039Port Republic, NJ</co01>
+	<co01>01041Somers Point, NJ</co01>
+	<co01>01043Ventnor City, NJ</co01>
+	<co01>01045Weymouth Township, NJ</co01>
+	<co02>02000Bergen, NJ</co02>
+	<co02>02001Allendale, NJ</co02>
+	<co02>02003Alpine, NJ</co02>
+	<co02>02005Bergenfield, NJ</co02>
+	<co02>02007Bogota, NJ</co02>
+	<co02>02009Carlstadt, NJ</co02>
+	<co02>02011Cliffside Park, NJ</co02>
+	<co02>02013Closter, NJ</co02>
+	<co02>02015Cresskill, NJ</co02>
+	<co02>02017Demarest, NJ</co02>
+	<co02>02019Dumont, NJ</co02>
+	<co02>02021East Rutherford, NJ</co02>
+	<co02>02023Edgewater, NJ</co02>
+	<co02>02025Elmwood Park, NJ</co02>
+	<co02>02027Emerson, NJ</co02>
+	<co02>02029Englewood, NJ</co02>
+	<co02>02031Englewood Cliffs, NJ</co02>
+	<co02>02033Fair Lawn, NJ</co02>
+	<co02>02035Fairview, NJ</co02>
+	<co02>02037Fort Lee, NJ</co02>
+	<co02>02039Franklin Lakes, NJ</co02>
+	<co02>02041Garfield, NJ</co02>
+	<co02>02043Glen Rock, NJ</co02>
+	<co02>02045Hackensack, NJ</co02>
+	<co02>02047Harrington Park, NJ</co02>
+	<co02>02049Hasbrouck Heights, NJ</co02>
+	<co02>02051Haworth, NJ</co02>
+	<co02>02053Hillsdale, NJ</co02>
+	<co02>02055Ho-Ho-Kus, NJ</co02>
+	<co02>02057Leonia, NJ</co02>
+	<co02>02059Little Ferry, NJ</co02>
+	<co02>02061Lodi, NJ</co02>
+	<co02>02063Lyndhurst, NJ</co02>
+	<co02>02065Mahwah, NJ</co02>
+	<co02>02067Maywood, NJ</co02>
+	<co02>02069Midland Park, NJ</co02>
+	<co02>02071Montvale, NJ</co02>
+	<co02>02073Moonachie, NJ</co02>
+	<co02>02075New Milford, NJ</co02>
+	<co02>02077North Arlington, NJ</co02>
+	<co02>02079Northvale, NJ</co02>
+	<co02>02081Norwood, NJ</co02>
+	<co02>02083Oakland, NJ</co02>
+	<co02>02085Old Tappan, NJ</co02>
+	<co02>02087Oradell, NJ</co02>
+	<co02>02089Palisades Park, NJ</co02>
+	<co02>02091Paramus, NJ</co02>
+	<co02>02093Park Ridge, NJ</co02>
+	<co02>02095Ramsey, NJ</co02>
+	<co02>02097Ridgefield, NJ</co02>
+	<co02>02099Ridgefield Park, NJ</co02>
+	<co02>02101Ridgewood, NJ</co02>
+	<co02>02103River Edge, NJ</co02>
+	<co02>02105River Vale, NJ</co02>
+	<co02>02107Rochelle Park, NJ</co02>
+	<co02>02109Rockleigh, NJ</co02>
+	<co02>02111Rutherford, NJ</co02>
+	<co02>02113Saddle Brook, NJ</co02>
+	<co02>02115Saddle River, NJ</co02>
+	<co02>02117South Hackensack, NJ</co02>
+	<co02>02119Teaneck, NJ</co02>
+	<co02>02121Tenafly, NJ</co02>
+	<co02>02123Teterboro, NJ</co02>
+	<co02>02125Upper Saddle River, NJ</co02>
+	<co02>02127Waldwick, NJ</co02>
+	<co02>02129Wallington, NJ</co02>
+	<co02>02131Washington Township, NJ</co02>
+	<co02>02133Westwood, NJ</co02>
+	<co02>02135Wood-Ridge, NJ</co02>
+	<co02>02137Woodcliff Lake, NJ</co02>
+	<co02>02139Wyckoff, NJ</co02>
+	<co03>03000Burlington, NJ</co03>
+	<co03>03001Bass River, NJ</co03>
+	<co03>03003Beverly, NJ</co03>
+	<co03>03005Bordentown, NJ</co03>
+	<co03>03007Bordentown Township, NJ</co03>
+	<co03>03009Burlington, NJ</co03>
+	<co03>03011Burlington Township, NJ</co03>
+	<co03>03013Chesterfield, NJ</co03>
+	<co03>03015Cinnaminson, NJ</co03>
+	<co03>03017Delanco, NJ</co03>
+	<co03>03019Delran, NJ</co03>
+	<co03>03021Eastampton, NJ</co03>
+	<co03>03023Edgewater Park, NJ</co03>
+	<co03>03025Evesham Township, NJ</co03>
+	<co03>03027Fieldsboro, NJ</co03>
+	<co03>03029Florence, NJ</co03>
+	<co03>03031Hainesport, NJ</co03>
+	<co03>03033Lumberton, NJ</co03>
+	<co03>03035Mansfield Township, NJ</co03>
+	<co03>03037Maple Shade, NJ</co03>
+	<co03>03039Medford, NJ</co03>
+	<co03>03041Medford Lakes, NJ</co03>
+	<co03>03043Moorestown, NJ</co03>
+	<co03>03045Mount Holly, NJ</co03>
+	<co03>03047Mount Laurel, NJ</co03>
+	<co03>03049New Hanover, NJ</co03>
+	<co03>03051North Hanover, NJ</co03>
+	<co03>03053Palmyra, NJ</co03>
+	<co03>03055Pemberton, NJ</co03>
+	<co03>03057Pemberton Township, NJ</co03>
+	<co03>03059Riverside, NJ</co03>
+	<co03>03061Riverton, NJ</co03>
+	<co03>03063Shamong, NJ</co03>
+	<co03>03065Southampton, NJ</co03>
+	<co03>03067Springfield Township, NJ</co03>
+	<co03>03069Tabernacle, NJ</co03>
+	<co03>03071Washington Township, NJ</co03>
+	<co03>03073Westampton, NJ</co03>
+	<co03>03075Willingboro, NJ</co03>
+	<co03>03077Woodland Township, NJ</co03>
+	<co03>03079Wrightstown, NJ</co03>
+	<co04>04000Camden, NJ</co04>
+	<co04>04001Audubon, NJ</co04>
+	<co04>04003Audubon Park, NJ</co04>
+	<co04>04005Barrington, NJ</co04>
+	<co04>04007Bellmawr, NJ</co04>
+	<co04>04009Berlin, NJ</co04>
+	<co04>04011Berlin Township, NJ</co04>
+	<co04>04013Brooklawn, NJ</co04>
+	<co04>04015Camden, NJ</co04>
+	<co04>04017Cherry Hill, NJ</co04>
+	<co04>04019Chesilhurst, NJ</co04>
+	<co04>04021Clementon, NJ</co04>
+	<co04>04023Collingswood, NJ</co04>
+	<co04>04025Gibbsboro, NJ</co04>
+	<co04>04027Gloucester City, NJ</co04>
+	<co04>04029Gloucester Township, NJ</co04>
+	<co04>04031Haddon Heights, NJ</co04>
+	<co04>04033Haddon Township, NJ</co04>
+	<co04>04035Haddonfield, NJ</co04>
+	<co04>04037Hi-Nella, NJ</co04>
+	<co04>04039Laurel Springs, NJ</co04>
+	<co04>04041Lawnside, NJ</co04>
+	<co04>04043Lindenwold, NJ</co04>
+	<co04>04045Magnolia, NJ</co04>
+	<co04>04047Merchantville, NJ</co04>
+	<co04>04049Mount Ephraim, NJ</co04>
+	<co04>04051Oaklyn, NJ</co04>
+	<co04>04053Pennsauken, NJ</co04>
+	<co04>04055Pine Hill, NJ</co04>
+	<co04>04057Pine Valley, NJ</co04>
+	<co04>04059Runnemede, NJ</co04>
+	<co04>04061Somerdale, NJ</co04>
+	<co04>04063Stratford, NJ</co04>
+	<co04>04065Tavistock, NJ</co04>
+	<co04>04067Voorhees, NJ</co04>
+	<co04>04069Waterford Township, NJ</co04>
+	<co04>04071Winslow Township, NJ</co04>
+	<co04>04073Woodlynne, NJ</co04>
+	<co05>05000Cape May, NJ</co05>
+	<co05>05001Avalon, NJ</co05>
+	<co05>05003Cape May, NJ</co05>
+	<co05>05005Cape May Point, NJ</co05>
+	<co05>05007Dennis Township, NJ</co05>
+	<co05>05009Lower Township, NJ</co05>
+	<co05>05011Middle Township, NJ</co05>
+	<co05>05013North Wildwood, NJ</co05>
+	<co05>05015Ocean City, NJ</co05>
+	<co05>05017Sea Isle City, NJ</co05>
+	<co05>05019Stone Harbor, NJ</co05>
+	<co05>05021Upper Township, NJ</co05>
+	<co05>05023West Cape May, NJ</co05>
+	<co05>05025West Wildwood, NJ</co05>
+	<co05>05027Wildwood, NJ</co05>
+	<co05>05029Wildwood Crest, NJ</co05>
+	<co05>05031Woodbine, NJ</co05>
+	<co06>06000Cumberland, NJ</co06>
+	<co06>06001Bridgeton, NJ</co06>
+	<co06>06003Commercial Township, NJ</co06>
+	<co06>06005Deerfield Township, NJ</co06>
+	<co06>06007Downe Township, NJ</co06>
+	<co06>06009Fairfield Township, NJ</co06>
+	<co06>06011Greenwich Township, NJ</co06>
+	<co06>06013Hopewell Township, NJ</co06>
+	<co06>06015Lawrence Township, NJ</co06>
+	<co06>06017Maurice River, NJ</co06>
+	<co06>06019Millville, NJ</co06>
+	<co06>06021Shiloh, NJ</co06>
+	<co06>06023Stow Creek Township, NJ</co06>
+	<co06>06025Upper Deerfield Township, NJ</co06>
+	<co06>06027Vineland, NJ</co06>
+	<co07>07000Essex, NJ</co07>
+	<co07>07001Belleville, NJ</co07>
+	<co07>07003Bloomfield, NJ</co07>
+	<co07>07005Caldwell, NJ</co07>
+	<co07>07007Cedar Grove, NJ</co07>
+	<co07>07009City of Orange, NJ</co07>
+	<co07>07011East Orange, NJ</co07>
+	<co07>07013Essex Fells, NJ</co07>
+	<co07>07015Fairfield, NJ</co07>
+	<co07>07017Glen Ridge, NJ</co07>
+	<co07>07019Irvington, NJ</co07>
+	<co07>07021Livingston, NJ</co07>
+	<co07>07023Maplewood, NJ</co07>
+	<co07>07025Millburn, NJ</co07>
+	<co07>07027Montclair, NJ</co07>
+	<co07>07029Newark, NJ</co07>
+	<co07>07031North Caldwell, NJ</co07>
+	<co07>07033Nutley, NJ</co07>
+	<co07>07035Roseland, NJ</co07>
+	<co07>07037South Orange Village, NJ</co07>
+	<co07>07039Verona, NJ</co07>
+	<co07>07041West Caldwell, NJ</co07>
+	<co07>07043West Orange, NJ</co07>
+	<co08>08000Gloucester, NJ</co08>
+	<co08>08001Clayton, NJ</co08>
+	<co08>08003Deptford, NJ</co08>
+	<co08>08005East Greenwich Township, NJ</co08>
+	<co08>08007Elk Township, NJ</co08>
+	<co08>08009Franklin Township, NJ</co08>
+	<co08>08011Glassboro, NJ</co08>
+	<co08>08013Greenwich Township, NJ</co08>
+	<co08>08015Harrison Township, NJ</co08>
+	<co08>08017Logan Township, NJ</co08>
+	<co08>08019Mantua, NJ</co08>
+	<co08>08021Monroe Township, NJ</co08>
+	<co08>08023National Park, NJ</co08>
+	<co08>08025Newfield, NJ</co08>
+	<co08>08027Paulsboro, NJ</co08>
+	<co08>08029Pitman, NJ</co08>
+	<co08>08031South Harrison Township, NJ</co08>
+	<co08>08033Swedesboro, NJ</co08>
+	<co08>08035Washington Township, NJ</co08>
+	<co08>08037Wenonah, NJ</co08>
+	<co08>08039West Deptford, NJ</co08>
+	<co08>08041Westville, NJ</co08>
+	<co08>08043Woodbury, NJ</co08>
+	<co08>08045Woodbury Heights, NJ</co08>
+	<co08>08047Woolwich Township, NJ</co08>
+	<co09>09000Hudson, NJ</co09>
+	<co09>09001Bayonne, NJ</co09>
+	<co09>09003East Newark, NJ</co09>
+	<co09>09005Guttenberg, NJ</co09>
+	<co09>09007Harrison, NJ</co09>
+	<co09>09009Hoboken, NJ</co09>
+	<co09>09011Jersey City, NJ</co09>
+	<co09>09013Kearny, NJ</co09>
+	<co09>09015North Bergen, NJ</co09>
+	<co09>09017Secaucus, NJ</co09>
+	<co09>09019Union City, NJ</co09>
+	<co09>09021Weehawken, NJ</co09>
+	<co09>09023West New York, NJ</co09>
+	<co10>10000Hunterdon, NJ</co10>
+	<co10>10001Alexandria Township, NJ</co10>
+	<co10>10003Bethlehem Township, NJ</co10>
+	<co10>10005Bloomsbury, NJ</co10>
+	<co10>10007Califon, NJ</co10>
+	<co10>10009Clinton, NJ</co10>
+	<co10>10011Clinton Township, NJ</co10>
+	<co10>10013Delaware Township, NJ</co10>
+	<co10>10015East Amwell, NJ</co10>
+	<co10>10017Flemington, NJ</co10>
+	<co10>10019Franklin Township, NJ</co10>
+	<co10>10021Frenchtown, NJ</co10>
+	<co10>10023Glen Gardner, NJ</co10>
+	<co10>10025Hampton, NJ</co10>
+	<co10>10027High Bridge, NJ</co10>
+	<co10>10029Holland Township, NJ</co10>
+	<co10>10031Kingwood Township, NJ</co10>
+	<co10>10033Lambertville, NJ</co10>
+	<co10>10035Lebanon, NJ</co10>
+	<co10>10037Lebanon Township, NJ</co10>
+	<co10>10039Milford, NJ</co10>
+	<co10>10041Raritan Township, NJ</co10>
+	<co10>10043Readington, NJ</co10>
+	<co10>10045Stockton, NJ</co10>
+	<co10>10047Tewksbury, NJ</co10>
+	<co10>10049Union Township, NJ</co10>
+	<co10>10051West Amwell, NJ</co10>
+	<co11>11000Mercer, NJ</co11>
+	<co11>11001East Windsor, NJ</co11>
+	<co11>11003Ewing, NJ</co11>
+	<co11>11005Hamilton, NJ</co11>
+	<co11>11007Hightstown, NJ</co11>
+	<co11>11009Hopewell, NJ</co11>
+	<co11>11011Hopewell Township, NJ</co11>
+	<co11>11013Lawrence, NJ</co11>
+	<co11>11015Pennington, NJ</co11>
+	<co11>11017Princeton, NJ</co11>
+	<co11>11019Robbinsville, NJ</co11>
+	<co11>11021Trenton, NJ</co11>
+	<co11>11023West Windsor, NJ</co11>
+	<co12>12000Middlesex, NJ</co12>
+	<co12>12001Carteret, NJ</co12>
+	<co12>12003Cranbury, NJ</co12>
+	<co12>12005Dunellen, NJ</co12>
+	<co12>12007East Brunswick, NJ</co12>
+	<co12>12009Edison, NJ</co12>
+	<co12>12011Helmetta, NJ</co12>
+	<co12>12013Highland Park, NJ</co12>
+	<co12>12015Jamesburg, NJ</co12>
+	<co12>12017Metuchen, NJ</co12>
+	<co12>12019Middlesex, NJ</co12>
+	<co12>12021Milltown, NJ</co12>
+	<co12>12023Monroe Township, NJ</co12>
+	<co12>12025New Brunswick, NJ</co12>
+	<co12>12027North Brunswick, NJ</co12>
+	<co12>12029Old Bridge, NJ</co12>
+	<co12>12031Perth Amboy, NJ</co12>
+	<co12>12033Piscataway, NJ</co12>
+	<co12>12035Plainsboro, NJ</co12>
+	<co12>12037Sayreville, NJ</co12>
+	<co12>12039South Amboy, NJ</co12>
+	<co12>12041South Brunswick, NJ</co12>
+	<co12>12043South Plainfield, NJ</co12>
+	<co12>12045South River, NJ</co12>
+	<co12>12047Spotswood, NJ</co12>
+	<co12>12049Woodbridge, NJ</co12>
+	<co13>13000Monmouth, NJ</co13>
+	<co13>13001Aberdeen, NJ</co13>
+	<co13>13003Allenhurst, NJ</co13>
+	<co13>13005Allentown, NJ</co13>
+	<co13>13007Asbury Park, NJ</co13>
+	<co13>13009Atlantic Highlands, NJ</co13>
+	<co13>13011Avon-by-the-Sea, NJ</co13>
+	<co13>13013Belmar, NJ</co13>
+	<co13>13015Bradley Beach, NJ</co13>
+	<co13>13017Brielle, NJ</co13>
+	<co13>13019Colts Neck, NJ</co13>
+	<co13>13021Deal, NJ</co13>
+	<co13>13023Eatontown, NJ</co13>
+	<co13>13025Englishtown, NJ</co13>
+	<co13>13027Fair Haven, NJ</co13>
+	<co13>13029Farmingdale, NJ</co13>
+	<co13>13031Freehold, NJ</co13>
+	<co13>13033Freehold Township, NJ</co13>
+	<co13>13035Hazlet, NJ</co13>
+	<co13>13037Highlands, NJ</co13>
+	<co13>13039Holmdel, NJ</co13>
+	<co13>13041Howell, NJ</co13>
+	<co13>13043Interlaken, NJ</co13>
+	<co13>13045Keansburg, NJ</co13>
+	<co13>13047Keyport, NJ</co13>
+	<co13>13049Lake Como, NJ</co13>
+	<co13>13051Little Silver, NJ</co13>
+	<co13>13053Loch Arbour, NJ</co13>
+	<co13>13055Long Branch, NJ</co13>
+	<co13>13057Manalapan, NJ</co13>
+	<co13>13059Manasquan, NJ</co13>
+	<co13>13061Marlboro, NJ</co13>
+	<co13>13063Matawan, NJ</co13>
+	<co13>13065Middletown, NJ</co13>
+	<co13>13067Millstone Township, NJ</co13>
+	<co13>13069Monmouth Beach, NJ</co13>
+	<co13>13071Neptune, NJ</co13>
+	<co13>13073Neptune City, NJ</co13>
+	<co13>13075Ocean Township, NJ</co13>
+	<co13>13077Oceanport, NJ</co13>
+	<co13>13079Red Bank, NJ</co13>
+	<co13>13081Roosevelt, NJ</co13>
+	<co13>13083Rumson, NJ</co13>
+	<co13>13085Sea Bright, NJ</co13>
+	<co13>13087Sea Girt, NJ</co13>
+	<co13>13089Shrewsbury, NJ</co13>
+	<co13>13091Shrewsbury Township, NJ</co13>
+	<co13>13093Spring Lake, NJ</co13>
+	<co13>13095Spring Lake Heights, NJ</co13>
+	<co13>13097Tinton Falls, NJ</co13>
+	<co13>13099Union Beach, NJ</co13>
+	<co13>13101Upper Freehold, NJ</co13>
+	<co13>13103Wall Township, NJ</co13>
+	<co13>13105West Long Branch, NJ</co13>
+	<co14>14000Morris, NJ</co14>
+	<co14>14001Boonton, NJ</co14>
+	<co14>14003Boonton Township, NJ</co14>
+	<co14>14005Butler, NJ</co14>
+	<co14>14007Chatham, NJ</co14>
+	<co14>14009Chatham Township, NJ</co14>
+	<co14>14011Chester Borough, NJ</co14>
+	<co14>14013Chester Township, NJ</co14>
+	<co14>14015Denville, NJ</co14>
+	<co14>14017Dover, NJ</co14>
+	<co14>14019East Hanover, NJ</co14>
+	<co14>14021Florham Park, NJ</co14>
+	<co14>14023Hanover, NJ</co14>
+	<co14>14025Harding Township, NJ</co14>
+	<co14>14027Jefferson Township, NJ</co14>
+	<co14>14029Kinnelon, NJ</co14>
+	<co14>14031Lincoln Park, NJ</co14>
+	<co14>14033Long Hill Township, NJ</co14>
+	<co14>14035Madison, NJ</co14>
+	<co14>14037Mendham, NJ</co14>
+	<co14>14039Mendham Township, NJ</co14>
+	<co14>14041Mine Hill, NJ</co14>
+	<co14>14043Montville, NJ</co14>
+	<co14>14045Morris Plains, NJ</co14>
+	<co14>14047Morris Township, NJ</co14>
+	<co14>14049Morristown, NJ</co14>
+	<co14>14051Mount Arlington, NJ</co14>
+	<co14>14053Mount Olive, NJ</co14>
+	<co14>14055Mountain Lakes, NJ</co14>
+	<co14>14057Netcong, NJ</co14>
+	<co14>14059Parsippany, NJ</co14>
+	<co14>14061Pequannock, NJ</co14>
+	<co14>14063Randolph, NJ</co14>
+	<co14>14065Riverdale, NJ</co14>
+	<co14>14067Rockaway, NJ</co14>
+	<co14>14069Rockaway Township, NJ</co14>
+	<co14>14071Roxbury, NJ</co14>
+	<co14>14073Victory Gardens, NJ</co14>
+	<co14>14075Washington Township, NJ</co14>
+	<co14>14077Wharton, NJ</co14>
+	<co15>15000Ocean, NJ</co15>
+	<co15>15001Barnegat, NJ</co15>
+	<co15>15003Barnegat Light, NJ</co15>
+	<co15>15005Bay Head, NJ</co15>
+	<co15>15007Beach Haven, NJ</co15>
+	<co15>15009Beachwood, NJ</co15>
+	<co15>15011Berkeley Township, NJ</co15>
+	<co15>15013Brick, NJ</co15>
+	<co15>15015Eagleswood, NJ</co15>
+	<co15>15017Harvey Cedars, NJ</co15>
+	<co15>15019Island Heights, NJ</co15>
+	<co15>15021Jackson, NJ</co15>
+	<co15>15023Lacey Township, NJ</co15>
+	<co15>15025Lakehurst, NJ</co15>
+	<co15>15027Lakewood, NJ</co15>
+	<co15>15029Lavallette, NJ</co15>
+	<co15>15031Little Egg Harbor, NJ</co15>
+	<co15>15033Long Beach, NJ</co15>
+	<co15>15035Manchester, NJ</co15>
+	<co15>15037Mantoloking, NJ</co15>
+	<co15>15039Ocean Gate, NJ</co15>
+	<co15>15041Ocean Township, NJ</co15>
+	<co15>15043Pine Beach, NJ</co15>
+	<co15>15045Plumsted Township, NJ</co15>
+	<co15>15047Point Pleasant, NJ</co15>
+	<co15>15049Point Pleasant Beach, NJ</co15>
+	<co15>15051Seaside Heights, NJ</co15>
+	<co15>15053Seaside Park, NJ</co15>
+	<co15>15055Ship Bottom, NJ</co15>
+	<co15>15057South Toms River, NJ</co15>
+	<co15>15059Stafford Township, NJ</co15>
+	<co15>15061Surf City, NJ</co15>
+	<co15>15063Toms River, NJ</co15>
+	<co15>15065Tuckerton, NJ</co15>
+	<co16>16000Passaic, NJ</co16>
+	<co16>16001Bloomingdale, NJ</co16>
+	<co16>16003Clifton, NJ</co16>
+	<co16>16005Haledon, NJ</co16>
+	<co16>16007Hawthorne, NJ</co16>
+	<co16>16009Little Falls, NJ</co16>
+	<co16>16011North Haledon, NJ</co16>
+	<co16>16013Passaic, NJ</co16>
+	<co16>16015Paterson, NJ</co16>
+	<co16>16017Pompton Lakes, NJ</co16>
+	<co16>16019Prospect Park, NJ</co16>
+	<co16>16021Ringwood, NJ</co16>
+	<co16>16023Totowa, NJ</co16>
+	<co16>16025Wanaque, NJ</co16>
+	<co16>16027Wayne, NJ</co16>
+	<co16>16029West Milford, NJ</co16>
+	<co16>16031Woodland Park, NJ</co16>
+	<co17>17000Salem, NJ</co17>
+	<co17>17001Alloway Township, NJ</co17>
+	<co17>17003Carneys Point, NJ</co17>
+	<co17>17005Elmer, NJ</co17>
+	<co17>17007Elsinboro Township, NJ</co17>
+	<co17>17009Lower Alloways Creek, NJ</co17>
+	<co17>17011Mannington Township, NJ</co17>
+	<co17>17013Oldmans Township, NJ</co17>
+	<co17>17015Penns Grove, NJ</co17>
+	<co17>17017Pennsville, NJ</co17>
+	<co17>17019Pilesgrove Township, NJ</co17>
+	<co17>17021Pittsgrove Township, NJ</co17>
+	<co17>17023Quinton Township, NJ</co17>
+	<co17>17025Salem, NJ</co17>
+	<co17>17027Upper Pittsgrove, NJ</co17>
+	<co17>17029Woodstown, NJ</co17>
+	<co18>18000Somerset, NJ</co18>
+	<co18>18001Bedminster, NJ</co18>
+	<co18>18003Bernards Township, NJ</co18>
+	<co18>18005Bernardsville, NJ</co18>
+	<co18>18007Bound Brook, NJ</co18>
+	<co18>18009Branchburg, NJ</co18>
+	<co18>18011Bridgewater, NJ</co18>
+	<co18>18013Far Hills, NJ</co18>
+	<co18>18015Franklin Township, NJ</co18>
+	<co18>18017Green Brook, NJ</co18>
+	<co18>18019Hillsborough, NJ</co18>
+	<co18>18021Manville, NJ</co18>
+	<co18>18023Millstone, NJ</co18>
+	<co18>18025Montgomery, NJ</co18>
+	<co18>18027North Plainfield, NJ</co18>
+	<co18>18029Peapack and Gladstone, NJ</co18>
+	<co18>18031Raritan, NJ</co18>
+	<co18>18033Rocky Hill, NJ</co18>
+	<co18>18035Somerville, NJ</co18>
+	<co18>18037South Bound Brook, NJ</co18>
+	<co18>18039Warren, NJ</co18>
+	<co18>18041Watchung, NJ</co18>
+	<co19>19000Sussex, NJ</co19>
+	<co19>19001Andover, NJ</co19>
+	<co19>19003Andover Township, NJ</co19>
+	<co19>19005Branchville, NJ</co19>
+	<co19>19007Byram Township, NJ</co19>
+	<co19>19009Frankford Township, NJ</co19>
+	<co19>19011Franklin, NJ</co19>
+	<co19>19013Fredon Township, NJ</co19>
+	<co19>19015Green Township, NJ</co19>
+	<co19>19017Hamburg, NJ</co19>
+	<co19>19019Hampton Township, NJ</co19>
+	<co19>19021Hardyston Township, NJ</co19>
+	<co19>19023Hopatcong, NJ</co19>
+	<co19>19025Lafayette, NJ</co19>
+	<co19>19027Montague, NJ</co19>
+	<co19>19029Newton, NJ</co19>
+	<co19>19031Ogdensburg, NJ</co19>
+	<co19>19033Sandyston Township, NJ</co19>
+	<co19>19035Sparta, NJ</co19>
+	<co19>19037Stanhope, NJ</co19>
+	<co19>19039Stillwater Township, NJ</co19>
+	<co19>19041Sussex, NJ</co19>
+	<co19>19043Vernon, NJ</co19>
+	<co19>19045Walpack Township, NJ</co19>
+	<co19>19047Wantage Township, NJ</co19>
+	<co20>20000Union, NJ</co20>
+	<co20>20001Berkeley Heights, NJ</co20>
+	<co20>20003Clark, NJ</co20>
+	<co20>20005Cranford, NJ</co20>
+	<co20>20007Elizabeth, NJ</co20>
+	<co20>20009Fanwood, NJ</co20>
+	<co20>20011Garwood, NJ</co20>
+	<co20>20013Hillside, NJ</co20>
+	<co20>20015Kenilworth, NJ</co20>
+	<co20>20017Linden, NJ</co20>
+	<co20>20019Mountainside, NJ</co20>
+	<co20>20021New Providence, NJ</co20>
+	<co20>20023Plainfield, NJ</co20>
+	<co20>20025Rahway, NJ</co20>
+	<co20>20027Roselle, NJ</co20>
+	<co20>20029Roselle Park, NJ</co20>
+	<co20>20031Scotch Plains, NJ</co20>
+	<co20>20033Springfield, NJ</co20>
+	<co20>20035Summit, NJ</co20>
+	<co20>20037Union, NJ</co20>
+	<co20>20039Westfield, NJ</co20>
+	<co20>20041Winfield, NJ</co20>
+	<co21>21000Warren, NJ</co21>
+	<co21>21001Allamuchy, NJ</co21>
+	<co21>21003Alpha, NJ</co21>
+	<co21>21005Belvidere, NJ</co21>
+	<co21>21007Blairstown, NJ</co21>
+	<co21>21009Franklin Township, NJ</co21>
+	<co21>21011Frelinghuysen Township, NJ</co21>
+	<co21>21013Greenwich Township, NJ</co21>
+	<co21>21015Hackettstown, NJ</co21>
+	<co21>21017Hardwick Township, NJ</co21>
+	<co21>21019Harmony Township, NJ</co21>
+	<co21>21021Hope Township, NJ</co21>
+	<co21>21023Independence Township, NJ</co21>
+	<co21>21025Knowlton Township, NJ</co21>
+	<co21>21027Liberty Township, NJ</co21>
+	<co21>21029Lopatcong Township, NJ</co21>
+	<co21>21031Mansfield Township, NJ</co21>
+	<co21>21033Oxford Township, NJ</co21>
+	<co21>21035Phillipsburg, NJ</co21>
+	<co21>21037Pohatcong Township, NJ</co21>
+	<co21>21039Washington, NJ</co21>
+	<co21>21041Washington Township, NJ</co21>
+	<co21>21043White Township, NJ</co21>
+</Records>	

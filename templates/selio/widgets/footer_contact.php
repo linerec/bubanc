@@ -5,7 +5,7 @@ Widget-preview-image: /assets/img/widgets_preview/footer_contact.webp
  */
 ?>
 
-<div class="col-xl-3 col-sm-6 col-md-3 widget_edit_enabled">
+<div class="col-xl-4 col-sm-6 col-md-3 widget_edit_enabled">
     <div class="widget-footer-contacts">
         <h3><?php echo lang_check('Contact Us');?></h3>
         <ul class="footer-list">                

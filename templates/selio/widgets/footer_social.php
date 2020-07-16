@@ -5,7 +5,7 @@ Widget-preview-image: /assets/img/widgets_preview/footer_social.webp
  */
 ?>
 
-<div class="col-xl-6 col-sm-12 col-md-5 widget_edit_enabled">
+<div class="col-xl-3 col-sm-12 col-md-5 widget_edit_enabled">
     <div class="bottom-list widget-follow-us">
         <h3><?php echo lang_check('Follow Us');?></h3>
         <div class="footer-social">
@@ -15,4 +15,4 @@ Widget-preview-image: /assets/img/widgets_preview/footer_social.webp
             <a href="https://www.instagram.com" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-instagram"></i></a>
         </div>
     </div>
-</div>      
+</div>
