@@ -27,7 +27,13 @@ spl_autoload_register(function($classname) {
 | path to your installation.
 |
 */
-$config['base_url']	= 'https://www.bubanc.com';
+$whitelist = array('127.0.0.1', "::1");
+
+if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
+    $config['base_url']	= 'https://www.bubanc.com';
+}else{
+    $config['base_url'] = '';
+}
 
 /*
 |--------------------------------------------------------------------------
