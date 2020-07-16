@@ -2324,9 +2324,9 @@ function cache_file($new_file, $original_file = NULL, $compress_enabled=false)
                 $file_content = str_replace('../',base_url("/templates/$template_name").'/'.dirname($file).'/../',$file_content);
                 
                 $config_base_url = config_item('base_url');
-                if(!empty($config_base_url)&& strpos( $config_base_url,'https')!== false){
+                //if(!empty($config_base_url)&& strpos( $config_base_url,'https')!== false){
                      $file_content = str_replace('http://','https://',$file_content);
-                }
+                //}
             }
             
             $all_content.=$file_content;
