@@ -27,7 +27,7 @@ spl_autoload_register(function($classname) {
 | path to your installation.
 |
 */
-$config['base_url']	= '';
+$config['base_url']	= 'https://www.bubanc.com';
 
 /*
 |--------------------------------------------------------------------------
