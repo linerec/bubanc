@@ -99,6 +99,7 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
                 <div class="col-xs-12 mx-auto p-3">
                     <p><?php echo lang_check('MainBannerText'); ?></p>
                 </div>
+                <img src="assets/img/bubanc.png" style="height:50px"/>
             </div>
         </div>
     </div>

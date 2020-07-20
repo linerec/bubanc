@@ -4,7 +4,7 @@ Widget-title: Real Estate Partners
 Widget-preview-image: /assets/img/widgets_preview/top_partners.webp
  */
 ?>
-<section class="partner-sec section-padding widget_edit_enabled">
+<section class="partner-sec section-padding widget_edit_enabled hidden">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">

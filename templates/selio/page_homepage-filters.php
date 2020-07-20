@@ -15,7 +15,7 @@
                 <div class="listing-main-sec-details">
                     <div class="row">
                         <div class="col-lg-8">
-                            <?php _widget('center_results');?>
+                            <?php _widget('center_results_list');?>
                         </div>
                         <div class="col-lg-4">
                             <div class="sidebar layout2">

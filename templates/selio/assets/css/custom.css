@@ -3109,7 +3109,7 @@ iframe {
 .side.widget-property-search .form_field:last-child,
 .side .sw_search_form .form_field,
 .side .sw_search_form .input-field {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .side .banner-search .btn {
@@ -3676,7 +3676,7 @@ input.form-spc {
 }
 
 .side .banner-search {
-  padding: 0;
+  padding: 15px;
   margin: 0 -4.5px;
   margin-bottom: -23px;
 }
@@ -5683,7 +5683,7 @@ div.bottom-logo > div {
 }
 
 .bottom.section-padding {
-  padding: 74px 0px 94px;
+  padding: 30px 0;
   overflow: hidden;
 }
 

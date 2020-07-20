@@ -476,44 +476,4 @@
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/kr/14/manitoba</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/kr/22/winnipeg</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/kr/13/ontario</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/kr/34/city_place</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/en/14/manitoba</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/en/22/winnipeg</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/en/13/ontario</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
-<url>
-	<loc>http://localhost/bubanc/index.php/treefield/en/34/city_place</loc>
-	<changefreq>monthly</changefreq>
-	<priority>0.5</priority>
-</url>
 </urlset>

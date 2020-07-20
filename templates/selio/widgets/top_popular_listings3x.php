@@ -22,11 +22,11 @@ $CI->generate_results_array($top_n_estates, $top_estates, $options_name);
 
 <section class="popular-listing hp2 section-padding widget_edit_enabled">
     <div class="container">
-        <div class="row justify-content-center hidden">
-            <div class="col-xl-6">
+        <div class="row">
+            <div class="col-xl-12">
                 <div class="section-heading">
                     <span><?php echo lang_check('Discover');?></span>
-                    <h3><?php echo lang_check('Popular Listing');?></h3>
+                    <h3 class="hidden"><?php echo lang_check('Popular Listing');?></h3>
                 </div>
             </div>
         </div>

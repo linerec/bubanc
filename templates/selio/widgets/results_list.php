@@ -64,9 +64,9 @@
                         endforeach;  
                         else:
                     ?>
-                    <li class=""><?php echo _ch($item['option_19'], '-'); ?> <?php echo _ch($options_name_19, '-'); ?></li>
-                    <li class=""><?php echo _ch($item['option_20'], '-'); ?> <?php echo _ch($options_name_20, '-'); ?></li>
-                    <li class=""><?php echo _ch($item['option_57'], '-'); ?> <?php echo _ch($options_name_57, '-'); ?></li>
+                    <li class=""><?php echo _ch($options_name_19, '-'); ?> <?php echo _ch($item['option_19'], '-'); ?></li>
+                    <li class=""><?php echo _ch($options_name_20, '-'); ?> <?php echo _ch($item['option_20'], '-'); ?></li>
+                    <li class=""><?php echo _ch($options_name_57, '-'); ?> <?php echo _ch($item['option_57'], '-'); ?><?php echo _ch($options_suffix_57, '-'); ?></li>
                     <?php endif; ?>
                 </ul>
             </div>

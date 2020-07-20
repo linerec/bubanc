@@ -285,7 +285,7 @@ a,
 }
 
 .section-heading {
-  text-align: center;
+  /* text-align: center; */
   float: left;
   width: 100%;
 }
@@ -295,8 +295,9 @@ a,
 }
 
 .section-heading span {
-  font-size: 14px;
-  color: #919398;
+  font-size: 32px;
+  font-weight: lighter;
+  color: #333;
   float: left;
   width: 100%;
   margin-bottom: 4px;
@@ -599,7 +600,7 @@ header.pb .menu-button span {
   /* background: url("../images/banner/1.webp"); */
   background-size: cover;
   background-position: center;
-  min-height: 260px;
+  min-height: 200px;
   position: relative;
   z-index: 1;
 }
@@ -624,8 +625,8 @@ header.pb .menu-button span {
   font-size: 44px;
   text-align: center;
   font-weight: 600;
-  margin-bottom: 33px;
-  margin-top: 49px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .banner.hp2 {
@@ -684,7 +685,7 @@ header.pb .menu-button span {
 }
 
 .banner-search .btn {
-  /* border-radius: 50px; */
+  border-radius: 0;
   margin: 7px 0px;
   padding: 0 36px;
   height: 51px;
@@ -1115,7 +1116,7 @@ header.pb .menu-button span {
 .card:hover .img-block:after,
 .popular-cities .card:hover:before,
 .popular-cities .card:hover:after {
-  opacity: 1;
+  /* opacity: 1; */
   visibility: visible;
   width: 0;
 }
@@ -1132,7 +1133,7 @@ header.pb .menu-button span {
 }
 
 .card .card-body {
-  padding: 21px 23px 0;
+  padding: 15px 15px 0;
   border-left: 1px solid #dfe0e5;
   border-right: 1px solid #dfe0e5;
 }
@@ -1230,7 +1231,7 @@ header.pb .menu-button span {
 
 .card:hover .img-block .overlay,
 .popular-listing .card:focus .img-block .overlay {
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 .img-block img {
@@ -2236,7 +2237,7 @@ animation: fadeIn 0.9s; }
 }
 
 .bottom.section-padding {
-  padding: 74px 0px 78px;
+  padding: 30px;
   overflow: hidden;
 }
 
@@ -3729,11 +3730,11 @@ animation: fadeIn 0.9s; }
 /* ==================== LIST LAYOUT WITH MAP ================== */
 
 .listing-main-sec.section-padding {
-  padding: 106px 0 110px 0;
+  padding: 30px 0;
 }
 
 .listing-main-sec.section-padding2 {
-  padding: 106px 0 110px 0;
+  padding: 30px 0;
 }
 
 .listing-main-sec-details {

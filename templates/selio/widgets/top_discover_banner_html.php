@@ -4,7 +4,7 @@ Widget-title: Discover banner html
 Widget-preview-image: /assets/img/widgets_preview/top_discover_banner_html.webp
  */
 ?>
-<a href="#" title="" class="widget_edit_enabled">
+<a href="#" title="" class="widget_edit_enabled hidden">
     <section class="cta section-padding">
         <div class="container">
             <div class="row">
