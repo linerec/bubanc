@@ -104,7 +104,7 @@ defined('ADMIN_SKIN')         OR define('ADMIN_SKIN', 'basic');
  *	대한민국이 아닌 해외에서 사용하시는 경우, 아래의 값을 변경하셔서 사용하시면 됩니다
 */
 if (PHP_VERSION >= '5.1.0') {
-	date_default_timezone_set('Asia/Seoul');
+	date_default_timezone_set('America/New_York');
 }
 
 

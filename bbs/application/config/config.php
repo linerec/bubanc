@@ -432,7 +432,7 @@ $config['cache_query_string'] = FALSE;
  * CiBoard 주 : 아래의 값을 입력해주세요
  * 입력하신 값은 외부에 공개되지 않도록 주의해주세요
  */
-$config['encryption_key'] = '';
+$config['encryption_key'] = '#Oamy1004';
 
 /*
 |--------------------------------------------------------------------------

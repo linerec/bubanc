@@ -1,6 +1,6 @@
 <?php
 
-date_default_timezone_set("Europe/Amsterdam");
+date_default_timezone_set("America/New_York");
 
 define('APP_VERSION_REAL_ESTATE', '1.6.7');
 /*
