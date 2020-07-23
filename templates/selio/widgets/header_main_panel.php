@@ -96,10 +96,9 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
     <div class="container-fluid" style="background-color:#FFD511;">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 mx-auto p-3">
+                <div class="col-12 py-3 d-flex justify-content-center align-self-center">
                     <p><?php echo lang_check('MainBannerText'); ?></p>
                 </div>
-                <img src="assets/img/bubanc.png" style="height:50px"/>
             </div>
         </div>
     </div>
