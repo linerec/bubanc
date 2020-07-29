@@ -15,7 +15,7 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features4x_html.we
         </div>
         <div class="row">
             <div class="col-xl-3 col-sm-6 col-md-3 col-lg-3">
-                <a href="#" title="">
+                <a href="https://www.flipsnack.com/ADJOA/-/full-view.html" title="" target="_blank">
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
