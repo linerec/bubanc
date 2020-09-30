@@ -1,6 +1,6 @@
 <?php 
 
-$lang['MainBannerText'] = "부동산뱅크 똑똑이! <b>부뱅이가 모두 드립니다!</b> 모바일에서 글 등록 제공, 사진 등록 무료! 동영상 등록 무료!";
+$lang['MainBannerText'] = "<b>Bubanc is with you!</b> Provides post registration on mobile, free photo registration! Free video registration!";
 $lang['From price'] = "From price";
 $lang['To price'] = "To price";
 $lang['FROM'] = "From";
@@ -854,7 +854,7 @@ $lang['Discover best properties in one place'] = "Discover best properties in on
 $lang['Testimonials'] = "Testimonials";
 $lang['Kritsofer Nolan'] = "Kritsofer Nolan";
 $lang['Property Owner'] = "Property Owner";
-$lang['footer_description'] = "Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat co nsequat auctor eu in elit.";
+$lang['footer_description'] = "REAL ESTATE BANC, The first/largest real estate magazine in the East US, is with you!";
 $lang['testimonials1'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
 $lang['testimonials2'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
 $lang['testimonials3'] = "Aenean sollicitudin, lorem quis bibendum auctor, nisi elitco nsequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accum sanpsum velit. Nam nec tellus a odio tinci.";
