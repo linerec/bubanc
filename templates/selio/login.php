@@ -111,10 +111,7 @@
                                                 <?php echo form_input('phone', set_value('phone', ''), 'class="form-control" id="inputPhone" placeholder="'.lang('Phone').'"')?>
                                             </div>
                                             <?php endif; ?>
-                                            
-                                            <div class="form-field">
-                                               <?php echo form_password('password_confirm', set_value('password_confirm', ''), 'class="form-control" id="inputPasswordConfirm" placeholder="'.lang('Confirmpassword').'" autocomplete="off"')?>
-                                            </div>
+
                                             <?php if (config_item('captcha_disabled') === FALSE): ?>
                                                 <div class="form-field {form_error_captcha}">
                                                     <div class="form_captcha">
