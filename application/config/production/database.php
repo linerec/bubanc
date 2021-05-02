@@ -50,10 +50,10 @@ $active_group = 'mysql';
 $active_record = TRUE;
 
 //MySQL example
-$db['mysql']['hostname'] = 'koriny-db.c3opeumbjgdz.us-east-1.rds.amazonaws.com';
-$db['mysql']['username'] = 'root';
-$db['mysql']['password'] = 's82sPaSWUxaV';
-$db['mysql']['database'] = 'agency';
+$db['mysql']['hostname'] = 'bubanc-db.cftmikqotsnx.us-east-2.rds.amazonaws.com';
+$db['mysql']['username'] = 'bubanc';
+$db['mysql']['password'] = 'Wjqthr5!';
+$db['mysql']['database'] = 'bubanc_db';
 $db['mysql']['dbdriver'] = 'mysqli';
 $db['mysql']['dbprefix'] = '';
 $db['mysql']['pconnect'] = FALSE;
