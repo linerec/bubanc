@@ -3938,6 +3938,7 @@ input.form-spc {
 
 .header {
   height: auto;
+  box-shadow: rgb(136 136 136 / 30%) 0px 0px 15px;
 }
 
 .header .navbar {
@@ -6536,6 +6537,10 @@ body .testimonial-sec.section-padding {
 
 .section-padding.sec-profile-video {
   padding: 65px 0px 20px;
+}
+
+.section-padding.sec-profile-details {
+  padding: 10px 0px 60px;
 }
 
 .post-comment-sec form textarea {

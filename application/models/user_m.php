@@ -38,7 +38,9 @@ class User_m extends MY_Model {
         'promotional_emails' => array('field'=>'promotional_emails', 'label'=>'lang:Promotional Emails', 'rules'=>'trim'),
         'favorites_notifications' => array('field'=>'favorites_notifications', 'label'=>'lang:Favorites Notifications', 'rules'=>'trim'),
         'reviews_notifications' => array('field'=>'reviews_notifications', 'label'=>'lang:Reviews Notifications', 'rules'=>'trim'),
-        'information_disclosed' => array('field'=>'information_disclosed', 'label'=>'lang:Information Disclosed', 'rules'=>'trim')
+        'information_disclosed' => array('field'=>'information_disclosed', 'label'=>'lang:Information Disclosed', 'rules'=>'trim'),
+
+        'profile_details' => array('field'=>'profile_details', 'label'=>'lang:Profile Details', 'rules'=>'trim')
     );
     
     public $rules_billing = array(

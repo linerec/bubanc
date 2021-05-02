@@ -2365,7 +2365,7 @@ animation: fadeIn 0.9s; }
   background-image: url(../images/resources/pager-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 79px 0 74px 0;
+  padding: 15px 0 15px 0;
   position: relative;
   z-index: 1;
 }
@@ -3381,6 +3381,7 @@ animation: fadeIn 0.9s; }
 .agent-img {
   float: left;
   width: 355px;
+  border: 1px solid #dfe0e5;
 }
 
 .agent-img > img {

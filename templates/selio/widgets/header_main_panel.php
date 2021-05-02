@@ -6,7 +6,7 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
 ?>
 
 <div class="header widget_edit_enabled">
-    <div class="container">
+    <div class="container header_container">
         <div class="row">
             <div class="col-xl-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
@@ -93,7 +93,7 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="background-color:#FFD511;">
+    <div class="container-fluid hidden" style="background-color:#FFD511;">
         <div class="container">
             <div class="row">
                 <div class="col-12 py-3 d-flex justify-content-center align-self-center">

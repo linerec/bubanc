@@ -314,6 +314,7 @@ $lang['Antispam'] = "Antispam";
 $lang['View Profile'] = "View Profile";
 $lang['properties in catalogue'] = "properties in catalogue";
 $lang['Assigned Properties'] = "Assigned Properties";
+$lang['Profile Details'] = "Profile Details";
 $lang['Radius'] = "Radius";
 $lang['km'] = "km";
 $lang['Km'] = "km";
