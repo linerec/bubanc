@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $lang['MainBannerText'] = "부동산뱅크 똑똑이! <b>부뱅이가 모두 드립니다!</b> 모바일에서 글 등록 제공, 사진 등록 무료! 동영상 등록 무료!";
 $lang['From price'] = "From price";
@@ -6,6 +6,12 @@ $lang['To price'] = "To price";
 $lang['FROM'] = "From";
 $lang['TO'] = "To";
 $lang[''] = "";
+
+$lang['Magazine Subtitle'] = "미동부 최초/최대 부동산 전문 매거진";
+$lang['Magazine Title'] = "부동산뱅크 온라인 잡지";
+$lang['Magazine Latest'] = "최신호 바로 보기";
+$lang['Magazine List'] = "부동산뱅크 이전호 보러가기";
+$lang['Youtube List'] = "YOUTUBE 채널 보러가기";
 
 $lang['Portalname'] = "pPoint";
 $lang['Portalslogan'] = "Real estate Agency<br>Portal script";
@@ -66,7 +72,7 @@ $lang['Username'] = "ID";
 $lang['Password'] = "비밀번호";
 $lang['Confirmpassword'] = "비밀번호 확인";
 $lang['Register'] = "회원가입";
-$lang['Thanks on registration, you can login now'] = "회원가입을 환영합니다. 이제 로그인이 가능합니다.";
+$lang['Thanks on registration, you can login now'] = "회원가입을 ��영합니다. 이제 로그인이 가능합니다.";
 $lang['Data editing disabled in demo'] = "Data editing disabled in demo";
 $lang['That email/password combination does not exists'] = "입력한 계정정보가 존재하지 않습니다.";
 $lang['Myproperties'] = "설정";
@@ -766,7 +772,7 @@ $lang['explore2_perfect_control'] = "Become at expert on byung NYC";
 $lang['explore2_support'] = "News, living, trends and market data";
 $lang['categories_presentation_description'] = "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. ";
 $lang['Sign out'] = "로그아웃";
-$lang['Selio theme made in EU. All Rights Reserved'] = "2020 BuBanc.com - All Rights Reserved.";
+$lang['Selio theme made in EU. All Rights Reserved'] = "2021 BuBanc.com - All Rights Reserved.";
 $lang['Not translatable'] = "Not translatable";
 $lang['Max'] = "최대";
 $lang['Sign In to your Account'] = "로그인";
@@ -905,5 +911,3 @@ $lang['Request info'] = "Request info";
 $lang['Other Contact Information'] = "Other Contact Information";
 $lang['212 5th Ave, New York'] = "212 5th Ave, New York";
 $lang['432 Park Ave, New York, NY 10022'] = "2160 N Central Rd #112 Fort Lee, NJ 07024";
-
-?>

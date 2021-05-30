@@ -16,11 +16,17 @@
 14. ERROR 404
 
 =============================================================*/
+:root {
+  --COLOR-BLUE: #0071e3;
+  --COLOR-GREY: #f5f5f7;
+  --COLOR-RED: #b72c31;
+}
 
 /* ================================================================================== 
 Basic Elements Css
 ===================================================================================== */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
 html,
 body,
@@ -129,7 +135,11 @@ section {
 
 body {
   /* font-family: "Poppins"; */
-  font-family: "Noto Sans KR", sans-serif;
+  /* font-family: "Noto Sans KR", sans-serif; */
+  font-family: /* 본문용 서체 */ "-apple-system", "BlinkMacSystemFont",
+    "Apple SD Gothic Neo", "Inter", "Spoqa Han Sans", "Segoe UI", Sans-Serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
   color: #aeb4b6;
   font-size: 14px;
   font-weight: 400;
@@ -377,15 +387,17 @@ header.pb {
 }
 
 .top-header {
-  background: #5a5fe3;
+  background: rgba(0, 0, 0, 0.8);
   height: 28px;
   line-height: 30px;
   border-bottom: 1px solid #0f1649;
 }
 
 .header-address a:hover,
-.header-address a {
+.header-address a,
+.header-address span {
   display: inline-block;
+  text-decoration: none;
   color: #d6d8e0;
 }
 
@@ -395,14 +407,16 @@ header.pb {
 
 .header-address a i {
   font-size: 18px;
-  margin-right: 9px;
+  margin-right: 3px;
+  margin-left: 9px;
   position: relative;
   top: 1px;
 }
 
-.header-address a span {
+.header-address a span,
+.header-address span {
   font-size: 12px;
-  margin-right: 29px;
+  margin-right: 5px;
   font-weight: 500;
   position: relative;
 }
@@ -601,7 +615,8 @@ header.pb .menu-button span {
   background-position: center;
   min-height: 200px;
   position: relative;
-  z-index: 1;
+  z-index: 10;
+  padding: 55px 0;
 }
 
 .banner::after {
@@ -619,12 +634,16 @@ header.pb .menu-button span {
   padding: 0 15px;
 }
 
+.banner-content {
+  padding: 55px 0;
+}
+
 .banner-content h2,
 .banner-content h1 {
   text-align: center;
-  font-weight: 600;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .banner-content h1 {
@@ -632,7 +651,7 @@ header.pb .menu-button span {
 }
 
 .banner-content h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .banner.hp2 {
@@ -641,10 +660,10 @@ header.pb .menu-button span {
 
 .banner-search {
   background: #fff;
-  border: 1px solid #cdcdcd;
-  /* border-radius: 50px; */
+  /*  border: 1px solid #cdcdcd;
+  border-radius: 50px; */
   padding: 0px 7px 0px 10px;
-  height: 65px;
+  /* height: 65px; */
 }
 
 .banner-search .form-group {
@@ -1298,6 +1317,10 @@ header.pb .menu-button span {
   color: #67686c;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
+}
+
+.magazine-section {
+  margin-top: 5px;
 }
 
 .popular-cities.section-padding {
@@ -6104,7 +6127,7 @@ body .half-map-sec .features_list {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(97, 99, 122, 0.65);
+  background-color: rgba(80, 80, 80, 0.65);
 }
 
 /* ===================== HOMEPAGE 4 ======================= */
@@ -6241,7 +6264,7 @@ label.error {
 .language-selector .drop-menu .select {
   color: #d6d8e0;
   float: right;
-  width: 130px;
+  width: 100%;
   padding: 0;
   height: auto;
   display: inline-block;
@@ -6262,7 +6285,7 @@ label.error {
 }
 
 .language-selector .drop-menu .dropeddown {
-  width: 150px;
+  width: 100%;
   padding: 0;
   border: 0;
   left: auto;
@@ -6472,4 +6495,24 @@ label.error {
 .slick-slide {
   outline: none;
   cursor: pointer;
+}
+
+
+/* ===== Custom Purpose Form ======= */
+.c-purpose-form-field {
+  flex-basis: 100% !important;
+  margin-top: 10px;
+}
+
+.c-purpose-form-field div.form-check-inline input {
+  visibility: hidden;
+}
+
+.c-purpose-form-field div.form-check-inline input:checked+label {
+  color: var(--COLOR-BLUE);
+  border-bottom: 2px solid var(--COLOR-BLUE);
+}
+
+.c-purpose-form-field div.form-check-inline label {
+  font-size: 24px;
 }

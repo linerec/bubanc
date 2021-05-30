@@ -7,6 +7,12 @@ $lang['FROM'] = "From";
 $lang['TO'] = "To";
 $lang[''] = "";
 
+$lang['Magazine Subtitle'] = "The First/Largest Real Estate Magazine In The Eastern United States";
+$lang['Magazine Title'] = "Real Estate Banc";
+$lang['Magazine Latest'] = "View the latest issue";
+$lang['Magazine List'] = "Go to previous magazines";
+$lang['Youtube List'] = "Go to ADJOA Youtube Channel";
+
 $lang['Portalname'] = "pPoint";
 $lang['Portalslogan'] = "Real estate Agency<br>Portal script";
 $lang['message_sent_successfully'] = "Message sent successfully, we will contact you as soon as possible";
@@ -766,7 +772,7 @@ $lang['explore2_perfect_control'] = "Become at expert on byung NYC";
 $lang['explore2_support'] = "News, living, trends and market data";
 $lang['categories_presentation_description'] = "Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. ";
 $lang['Sign out'] = "Sign out";
-$lang['Selio theme made in EU. All Rights Reserved'] = "2020 BuBanc.com - All Rights Reserved.";
+$lang['Selio theme made in EU. All Rights Reserved'] = "2021 BuBanc.com - All Rights Reserved.";
 $lang['Not translatable'] = "Not translatable";
 $lang['Max'] = "Max";
 $lang['Sign In to your Account'] = "Sign In to your Account";

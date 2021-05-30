@@ -43,16 +43,15 @@ header.pb .header .navbar-nav .nav-item .nav-link:hover,
 .map-city-links ul li a:hover,
 a.link,
 .selected,
-.dropdown-item.active, 
+.dropdown-item.active,
 .dropdown-item:active,
 .post-share > a:hover,
 .h-card-body .title,
 body ul.post-nfo a:hover,
 .header .navbar-nav .signin-btn a:hover,
 .h-page-card .title a:hover {
-	color: #6a7be7;
+  color: #6a7be7;
 }
-
 
 .banner-search .btn,
 .explore-feature .card .card-body i,
@@ -78,16 +77,15 @@ body ul.post-nfo a:hover,
 .card .card-footer a .la-heart-o:hover,
 .footer-social a:hover,
 .signin-btn b:before,
-.success-message, 
+.success-message,
 .error-message,
 .btn.btn-local-primary,
 .block-header,
 .model-item .title:hover,
 .language-selector .drop-menu .dropeddown li:hover,
 .blog-single-post:hover .post_info > a {
-	background-color: #6a7be7;
+  background-color: var(--COLOR-BLUE);
 }
-
 
 .header .navbar-nav .submit-btn a,
 .view-btn,
@@ -99,5 +97,5 @@ body ul.post-nfo a:hover,
 .btn-default,
 .btn.btn-local-primary,
 .language-selector .drop-menu .dropeddown li:hover {
-	border-color: #6a7be7;
+  border-color: #6a7be7;
 }

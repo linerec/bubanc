@@ -1,4 +1,6 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php  if (! defined('BASEPATH')) {
+    exit('No direct script access allowed');
+}
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
@@ -17,7 +19,7 @@
 |	['password'] The password used to connect to the database
 |	['database'] The name of the database you want to connect to
 |	['dbdriver'] The database type. ie: mysql.  Currently supported:
-				 mysql, mysqli, postgre, odbc, mssql, sqlite, oci8
+                 mysql, mysqli, postgre, odbc, mssql, sqlite, oci8
 |	['dbprefix'] You can add an optional prefix, which will be added
 |				 to the table name when using the  Active Record class
 |	['pconnect'] TRUE/FALSE - Whether to use a persistent connection
@@ -47,24 +49,24 @@
 
 // Examples: mysql
 $active_group = 'mysql';
-$active_record = TRUE;
+$active_record = true;
 
 //MySQL example
 $db['mysql']['hostname'] = 'bubanc-db.cftmikqotsnx.us-east-2.rds.amazonaws.com';
 $db['mysql']['username'] = 'bubanc';
-$db['mysql']['password'] = 'Wjqthr5!';
+$db['mysql']['password'] = 'wjqthr5';
 $db['mysql']['database'] = 'bubanc_db';
 $db['mysql']['dbdriver'] = 'mysqli';
 $db['mysql']['dbprefix'] = '';
-$db['mysql']['pconnect'] = FALSE;
-$db['mysql']['db_debug'] = FALSE;
-$db['mysql']['cache_on'] = FALSE;
+$db['mysql']['pconnect'] = false;
+$db['mysql']['db_debug'] = false;
+$db['mysql']['cache_on'] = false;
 $db['mysql']['cachedir'] = '';
 $db['mysql']['char_set'] = 'utf8';
 $db['mysql']['dbcollat'] = 'utf8_general_ci';
 $db['mysql']['swap_pre'] = '';
-$db['mysql']['autoinit'] = TRUE;
-$db['mysql']['stricton'] = FALSE;
+$db['mysql']['autoinit'] = true;
+$db['mysql']['stricton'] = false;
 
 $db['mysql']['port'] = 3306;
 

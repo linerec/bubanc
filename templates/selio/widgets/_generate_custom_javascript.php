@@ -384,7 +384,6 @@ $(document).ready(function() {
                 }
                 else if($(this).attr('type') == 'radio')
                 {   
-                    
                     if ($(this)[0].checked)
                     {
                         //console.log($(this));

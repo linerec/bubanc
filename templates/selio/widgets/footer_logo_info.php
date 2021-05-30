@@ -5,11 +5,11 @@ Widget-preview-image: /assets/img/widgets_preview/footer_logo_info.webp
  */
 ?>
 
-<div class="col-xl-5 col-sm-6 col-md-5 widget_edit_enabled">
+<div class="col-xl-5 col-sm-12 col-md-4 widget_edit_enabled">
     <div class="bottom-logo">
-        <?php if(!empty($website_logo_url) && stripos($website_logo_url, 'assets/img/logo.png') === FALSE):?>
+        <?php if (!empty($website_logo_url) && stripos($website_logo_url, 'assets/img/logo.png') === false):?>
             <img src="<?php echo $website_logo_url; ?>" alt="{settings_websitetitle}" class="img-fluid">
-        <?php elseif(false):?>
+        <?php elseif (false):?>
             <?php
             $first_w =  strtok($settings_websitetitle, " "); // Test
             ?>

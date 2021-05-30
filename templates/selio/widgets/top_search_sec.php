@@ -1,7 +1,7 @@
 <?php
 /*
 Widget-title: Search form
-Widget-preview-image: /assets/img/widgets_preview/top_search2.webp 
+Widget-preview-image: /assets/img/widgets_preview/top_search2.webp
 */
 ?>
 <section class="form_sec widget_edit_enabled">
@@ -9,7 +9,7 @@ Widget-preview-image: /assets/img/widgets_preview/top_search2.webp
     <div class="container">
         <form action="#" class="row banner-search search-form top-search">
             {is_logged_other}
-            <?php if($this->session->userdata('type') == 'ADMIN'): ?>
+            <?php if ($this->session->userdata('type') == 'ADMIN'): ?>
             <div class="widget-controls-panel widget_controls_panel" data-widgetfilename="right_filterform">
                 <a href="<?php echo site_url('admin/forms/edit/7');?>" target="_blunk" class="btn btn-edit"><i class="ion-edit"></i></a>
             </div>

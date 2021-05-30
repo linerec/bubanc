@@ -65,7 +65,7 @@ if ( ! function_exists('anti_spam_field'))
                 <div class="container">
                     <div class="listing-main-sec-details">
                         <div class="row">
-                            <div class="col-lg-8">
+                            <div class="col-lg-9">
                                 <div class="agent-profile">
                                     <div class="agent-img">
                                         <img src="{agent_image_url}" alt="{page_title}">
@@ -78,9 +78,7 @@ if ( ! function_exists('anti_spam_field'))
 
                                             <?php echo $agent_profile['description']; ?>
                                         </p>
-                                        <!-- Example to print all custom fields in list -->
-                                            <?php profile_cf_li(); ?>
-
+                                        
                                         <!-- Example to print specific custom field with label -->
                                             <?php //profile_cf_single(1, TRUE);  ?>
 
@@ -106,6 +104,9 @@ if ( ! function_exists('anti_spam_field'))
                                                 <li><a class="google-plus" href="<?php echo $agent_profile['linkedin_link']; ?>"><i class="fa fa-linkedin linkedin"></i></a></li>
                                             <?php endif; ?>
                                         </ul>
+
+                                        <!-- Example to print all custom fields in list -->
+                                        <?php profile_cf_li(); ?>
                                     </div><!--agent-info end-->
                                 </div>
                                 <?php
@@ -117,6 +118,20 @@ if ( ! function_exists('anti_spam_field'))
                                     ?>
                                 </p>
                                 <?php endif;?>
+
+                                <?php
+                                if (!empty($agent_profile['profile_details'])):?>
+                                <div class="similar-listings-posts">
+                                    <h3 class='title'><?php _l('Profile Details'); ?></h3>
+                                    <div class="clear_both"></div>
+                                    <p class="section-padding sec-profile-details">
+                                        <?php
+                                            echo $agent_profile['profile_details'];
+                                        ?>
+                                    </p>
+                                </div>
+                                <?php endif;?>
+
                                 <div class="similar-listings-posts">
                                     <h3 class='title'><?php _l('Assigned Properties'); ?></h3>
                                     <div id="ajax_results">
@@ -222,7 +237,7 @@ if ( ! function_exists('anti_spam_field'))
                                     </div>
                                 </div>   
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-3">
                                 <div class="widget widget_sw_win_contactform_widget side"><h3 class="widget-title"><?php echo lang_check('Contact Agent'); ?></h3>
                                     <div class="contact-agent widget-form" id="contact-form">
                                         <form method="post" class="contact-form" action="{page_current_url}#contact-form">

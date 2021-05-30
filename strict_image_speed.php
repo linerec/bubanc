@@ -3,98 +3,6 @@
 /*
     Example to call: strict_image.php?d=100x200&f=413539183_cc8e400d9d_o.jpg
 */
-
-$width = null;
-$height = null;
-$filename = null;
-
-if (!defined('IMAGETYPE_WEBP')) {
-    define('IMAGETYPE_WEBP', 'image/webp');
-}
-
-if(isset($_GET['d']))
-{
-    $dim = explode('x', $_GET['d']);
-    if(count($dim) >= 2)
-    {
-        $width = $dim[0];
-        $height = $dim[1];
-    }
-}
-
-if($width < 400)
-{
-    $_GET['cut']=true; // add this like to cut image instead of add background   
-}
-
-if(isset($_GET['f']))
-{
-    $filename = $_GET['f'];
-}
-
-if(empty($width) || empty($height) || empty($filename) || !file_exists('files/'.$filename))
-{
-    output_error_image();
-}
-
-if(!is_dir('files/strict_cache'))
-    mkdir('files/strict_cache');
-
-if(file_exists('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename)))
-{
-    $image_info = false;
-    if(true){
-        $image_i = @imagecreatefromwebp('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
-        if($image_i) {
-            $image_info = array();
-            $image_info['mime'] = 'image/webp';
-        }
-    } else {
-        $image_info = @getimagesize('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
-    }
-    
-    if (!$image_info) {
-        unlink('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
-        output_error_image();
-    }
-
-    header('Content-Type: '.$image_info['mime']);
-    readfile('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
-}
-else
-{
-    $image = new ImageResize('files/'.$filename);
-    
-    if(isset($_GET['cut']))
-    {
-        //$image->resize($width, $height, true, false);
-        $image->crop($width, $height, true);
-    }
-    else
-    {
-        $image->resize($width, $height, true, true);
-    }
-
-    $image->output();
-    $image->save('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
-}
-
-function output_error_image()
-{
-    $img = imagecreatetruecolor(500, 500);
-    $bg = imagecolorallocate ( $img, 255, 255, 255 );
-    imagefilledrectangle($img,0,0,500,500,$bg);
-    $color = imagecolorallocate($img, 0, 0, 0);
-    $text = "Error in image";
-    imagettftext($img, 12, 0, 190, 20, $color, 'admin-assets/font/verdana.ttf', $text);
-
-    
-    header('Content-Type: image/jpg');
-    imagejpeg($img, null, 80);
-    exit();
-}
-
-
 /**
  * PHP class to resize and scale images
  */
@@ -594,5 +502,98 @@ class ImageResize
         return $size;
     }
 }
+
+$width = null;
+$height = null;
+$filename = null;
+
+if (!defined('IMAGETYPE_WEBP')) {
+    define('IMAGETYPE_WEBP', 'image/webp');
+}
+
+if(isset($_GET['d']))
+{
+    $dim = explode('x', $_GET['d']);
+    if(count($dim) >= 2)
+    {
+        $width = $dim[0];
+        $height = $dim[1];
+    }
+}
+
+if($width < 400)
+{
+    $_GET['cut']=true; // add this like to cut image instead of add background   
+}
+
+if(isset($_GET['f']))
+{
+    $filename = $_GET['f'];
+}
+
+if(empty($width) || empty($height) || empty($filename) || !file_exists('files/'.$filename))
+{
+    output_error_image();
+}
+
+if(!is_dir('files/strict_cache'))
+    mkdir('files/strict_cache');
+
+if(file_exists('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename)))
+{
+    $image_info = false;
+    if(true){
+        $image_i = @imagecreatefromwebp('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
+        if($image_i) {
+            $image_info = array();
+            $image_info['mime'] = 'image/webp';
+        }
+    } else {
+        $image_info = @getimagesize('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
+    }
+    
+    if (!$image_info) {
+        unlink('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
+        output_error_image();
+    }
+
+    header('Content-Type: '.$image_info['mime']);
+    readfile('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
+}
+else
+{
+    $image = new ImageResize('files/'.$filename);
+    
+    if(isset($_GET['cut']))
+    {
+        //$image->resize($width, $height, true, false);
+        $image->crop($width, $height, true);
+    }
+    else
+    {
+        $image->resize($width, $height, true, true);
+    }
+
+    $image->output();
+    $image->save('files/strict_cache/'.$width.'x'.$height.str_replace(array('.jpeg','.jpg','.png','.gif'), '.webp', $filename));
+}
+
+function output_error_image()
+{
+    $img = imagecreatetruecolor(500, 500);
+    $bg = imagecolorallocate ( $img, 255, 255, 255 );
+    imagefilledrectangle($img,0,0,500,500,$bg);
+    $color = imagecolorallocate($img, 0, 0, 0);
+    $text = "Error in image";
+    imagettftext($img, 12, 0, 190, 20, $color, 'admin-assets/font/verdana.ttf', $text);
+
+    
+    header('Content-Type: image/jpg');
+    imagejpeg($img, null, 80);
+    exit();
+}
+
+
+
 
 ?>

@@ -18,7 +18,7 @@ if(empty($treefields)) {
 
 <section class="popular-cities hp7 section-popular-cities-flexbox widget_edit_enabled">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-xl-6">
                 <div class="section-heading">
                     <span><?php echo lang_check('Popular Cities');?></span>

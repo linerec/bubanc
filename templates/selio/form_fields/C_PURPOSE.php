@@ -47,32 +47,14 @@
     }
 ?>
 
-<div class="form_field ">
+<div class="form_field c-purpose-form-field">
     <div class="form-group  field_search_<?php echo _ch($f_id); ?>">
-
-        <div class="drop-menu">
-            <div class="select">
-                <?php reset($values_arr); if(key($values_arr)=='' && key($values_arr) !=0):?>
-                    <span><?php echo current($values_arr);?></span>
-                <?php else:?>
-                    <span><?php echo ${'options_name_4'};?></span>
-                <?php endif;?>
-                <i class="fa fa-angle-down"></i>
+        <?php if(sw_count($values_arr)>0) foreach ($values_arr as $key => $value):?>
+            <?php $value = trim($value); if(empty($value)|| (empty($value) && empty($value)!=0))continue;?>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="search_option_<?php echo _ch($f_id); ?>" id="<?php echo _ch($value);?>" value="<?php echo _ch($value);?>">
+                <label class="form-check-label" for="<?php echo _ch($value);?>"><?php echo _ch($value);?></label>
             </div>
-            <input type="hidden" id="search_option_<?php echo _ch($f_id); ?>" name="search_option_<?php echo _ch($f_id); ?>" value="<?php echo $val;?>" />
-            <ul class="dropeddown">
-                <?php reset($values_arr); if(key($values_arr)=='' && key($values_arr) !=0):?>
-                    <li><?php echo current($values_arr);?></li>
-                <?php else:?>
-                    <li><?php echo ${'options_name_4'};?></li>
-                <?php endif;?>
-                <?php if(sw_count($values_arr)>0) foreach ($values_arr as $key => $value):?>
-                    <?php $value = trim($value); if(empty($value)|| (empty($value) && empty($value)!=0))continue;?>
-                    <li data-value="<?php echo _ch($value);?>"><?php echo _ch($value);?></li>
-                <?php endforeach;?>
-            </ul>
-        </div>
+        <?php endforeach;?>
     </div><!-- /.form-group -->
 </div>
-
-

@@ -4,6 +4,9 @@ Widget-title: Header main panel
 Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
  */
 ?>
+<?php
+ $lang_array = $this->language_m->get_array_by(array('is_frontend'=>1));
+?> 
 
 <div class="header widget_edit_enabled">
     <div class="container header_container">
@@ -11,7 +14,7 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
             <div class="col-xl-12">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a href="{homepage_url_lang}" class="navbar-brand">
-                        <?php if (!empty($website_logo_url) && stripos($website_logo_url, 'assets/img/logo.png') === FALSE): ?>
+                        <?php if (!empty($website_logo_url) && stripos($website_logo_url, 'assets/img/logo.png') === false): ?>
                             <img src="<?php echo $website_logo_url; ?>" alt="{settings_websitetitle}">
                         <?php elseif (false): ?>
                             <?php
@@ -32,24 +35,25 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
                     </button>
                     <div class="navbar-collapse" id="navbarSupportedContent">
                         <?php _widget('custom_mainmenu'); ?>
-                        <?php if (config_db_item('property_subm_disabled') == FALSE): ?>
+                        <?php if (config_db_item('property_subm_disabled') == false): ?>
                             <div class="d-inline my-2 my-lg-0">
+                            
                                 <ul class="navbar-nav">
-                                    <?php if (config_db_item('property_subm_disabled') == FALSE): ?>
-                                        <li class="nav-item signin-btn">
-                                            {not_logged}
+                                    <?php if (config_db_item('property_subm_disabled') == false): ?>
+                                        <li class="nav-item signin-btn hidden">
+                                        {not_logged}
                                             <span class="nav-link">
-                                        <i class="la la-sign-in"></i>
-                                        <span>
-                                            <a href="{front_login_url}#sw_login" class="login_popup_enabled ">
-                                                <b class="signin-op"><?php echo lang_check('Sign in'); ?></b>
-                                            </a>
-                                            <?php echo lang_check('or'); ?>
-                                            <a href="{front_login_url}#sw_register" class="">
-                                                <b class="reg-op"><?php echo lang_check('Register'); ?></b>
-                                            </a>
-                                        </span>
-                                    {/not_logged}
+                                            <i class="la la-sign-in"></i>
+                                            <span>
+                                                <a href="{front_login_url}#sw_login" class="login_popup_enabled ">
+                                                    <b class="signin-op"><?php echo lang_check('Sign in'); ?></b>
+                                                </a>
+                                                <?php echo lang_check('or'); ?>
+                                                <a href="{front_login_url}#sw_register" class="">
+                                                    <b class="reg-op"><?php echo lang_check('Register'); ?></b>
+                                                </a>
+                                            </span>
+                                        {/not_logged}
                                     {is_logged_user}
                                     <span class="">
                                         <i class="la la-sign-in"></i>
@@ -67,6 +71,7 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
                                 </span>
                                         </li>
                                     <?php endif; ?>
+                                    
                                     <?php if (config_db_item('enable_qs') == 1): ?>
                                         <li class="nav-item submit-btn">
                                             <a href="<?php echo site_url('fquick/submission/' . $lang_code); ?>"
@@ -84,6 +89,11 @@ Widget-preview-image: /assets/img/widgets_preview/header_main_panel.webp
                                             </a>
                                         </li>
                                     <?php endif; ?>
+                                    <?php if (sw_count($lang_array) > 1):?> 
+                                    <div class="nav-link d-block d-lg-none">
+                                        <?php _widget('custom_langmenu');?>
+                                    </div>
+                                    <?php endif;?>
                                 </ul>
                             </div>
                         <?php endif; ?>

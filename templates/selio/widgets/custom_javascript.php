@@ -8,7 +8,7 @@
 <?php cache_file('big_js_orig.js', NULL); ?>
 
 <?php
-//_generate_js('_generate_custom_javascript_'.md5(current_url()), 'widgets/_generate_custom_javascript.php');
+_generate_js('_generate_custom_javascript_'.md5(current_url()), 'widgets/_generate_custom_javascript.php');
 
 sw_add_script('page_js_'.md5(current_url()), 'widgets/_generate_custom_javascript.php');
 sw_add_script('page_js_'.md5(current_url()), 'widgets/_generate_calendar_js.php');
