@@ -1439,8 +1439,7 @@ $(document).ready(function(){
         
      $(document).ready(function(){
          /* [Edit property] */
-    
-                      <?php if(config_db_item('map_version') =='open_street'):?>
+        <?php if(config_db_item('map_version') =='open_street'):?>
             var edit_map_marker;
             var edit_map
             if($('#mapsAddress').length){
@@ -1500,10 +1499,10 @@ $(document).ready(function(){
                     firstSet = true;
                 }
 
-                $('#input_address').on('change keyup', function (e) {
+                $('#inputAddress').on('change keyup', function (e) {
                     clearTimeout(timerMap);
                     timerMap = setTimeout(function () {
-                        $.get('https://nominatim.openstreetmap.org/search?format=json&q='+$('#input_address').val(), function(data){
+                        $.get('https://nominatim.openstreetmap.org/search?format=json&q='+$('#inputAddress').val(), function(data){
                             if(data.length && typeof data[0]) {
                                 edit_map_marker.setLatLng([data[0].lat, data[0].lon]).update(); 
                                 edit_map.panTo(new L.LatLng(data[0].lat, data[0].lon));
@@ -1518,7 +1517,16 @@ $(document).ready(function(){
                 });
             }
             <?php else:?>
-    
+                //Autocomplete for #inputAddress
+                var input = /** @type {!HTMLInputElement} */(
+                            document.getElementById('inputAddress'));
+                var autocomplete = new google.maps.places.Autocomplete(input);
+                google.maps.event.addListener(autocomplete, 'place_changed', function () {
+                    var selectedPlace = autocomplete.getPlace();
+                    document.getElementById('inputOption_3_5').value = selectedPlace.address_components[3].long_name;
+                    document.getElementById('inputOption_3_7').value = selectedPlace.address_components[2].long_name;
+                    document.getElementById('inputOption_3_40').value = selectedPlace.address_components[6].long_name;
+                });
             // If alredy selected
             if($('#inputGps').length && $('#inputGps').val() != '')
             {
@@ -1588,13 +1596,13 @@ $(document).ready(function(){
                   firstSet = true;
             }
                 
-            $('#input_address').keyup(function (e) {
+            $('#inputAddress').keyup(function (e) {
                 clearTimeout(timerMap);
                 timerMap = setTimeout(function () {
                     
                     $("#mapsAddress").gmap3({
                       getlatlng:{
-                        address:  $('#input_address').val(),
+                        address:  $('#inputAddress').val(),
                         callback: function(results){
                           if ( !results ){
                             ShowStatus.show('<?php echo str_replace("'", "\'", lang_check('Address not found!')); ?>');
@@ -1620,7 +1628,7 @@ $(document).ready(function(){
                               },
                               events: {
                                 dragend: function(marker){
-                                  if($("#input_address").attr("readonly"))
+                                  if($("#inputAddress").attr("readonly"))
                                   {
                                     alert('<?php _l('Location change disabled'); ?>');
                                     return false;

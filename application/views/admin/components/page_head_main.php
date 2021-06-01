@@ -296,6 +296,7 @@
                 }
 
                 $('#inputAddress').keyup(function (e) {
+                    debugger;
                     var $ajax_loading = $('.ajax_loading_gps');
                     $ajax_loading.css('display', 'inline-block');
                 clearTimeout(timerMap);
@@ -391,6 +392,7 @@
         }
         
         $('#inputAddress').keyup(function (e) {
+            debugger;
             clearTimeout(timerMap);
             var $ajax_loading = $('.ajax_loading_gps');
             $ajax_loading.css('display', 'inline-block');

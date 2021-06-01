@@ -26,7 +26,7 @@ $CI->generate_results_array($top_n_estates, $top_estates, $options_name);
             <div class="col-xl-12">
                 <div class="section-heading">
                     <span><?php echo lang_check('Discover');?></span>
-                    <h3 class="hidden"><?php echo lang_check('Popular Listing');?></h3>
+                    <h3><?php echo lang_check('Popular Listing');?></h3>
                 </div>
             </div>
         </div>

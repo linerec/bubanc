@@ -37,7 +37,7 @@
                                 <?php _widget('property_center_details');?>
                                 <?php _widget('property_center_amenities_indoor');?>
                                 <?php _widget('property_center_amenities_outdoor');?>
-                                <?php _widget('property_center_distances');?>
+                                <?php //_widget('property_center_distances');?>
                                 <?php _widget('property_center_dynamic_categories');?>
                                 <?php _widget('property_center_plan');?>
                                 <?php _widget('property_center_map');?>

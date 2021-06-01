@@ -433,7 +433,7 @@
     width: 21%;
   }
   .form_sec .banner-search .form-control {
-    border-radius: 30px;
+    /* border-radius: 30px; */
   }
   .form_sec .banner-search .btn {
     margin-top: 0;
@@ -600,7 +600,7 @@
     left: 10px;
   }
   #map-container.fullwidth-home-map.wmap {
-    height: 350px;
+    height: 100px;
   }
   .rtl .half-map-sec .widget-property-search {
     margin-bottom: 40px;

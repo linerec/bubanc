@@ -108,7 +108,7 @@
                     </div>
                     <?php endif;?>
                 </div>
-                <img src="assets/img/placeholder-footer.webp" alt="placeholder" class="footer-placeholder">
+                <img src="assets/img/placeholder-footer.webp" alt="placeholder" class="footer-placeholder hidden">
             </div>
         </section>
         <footer class="footer">

@@ -2477,12 +2477,12 @@ if (! function_exists('load_map_api'))
                                 break;
                 
                 case 'google' : $maps_api_key = config_db_item('maps_api_key');;
-                                $src = '//maps.google.com/maps/api/js?v=3.3&amp;libraries=places,geometry&amp;key='.$maps_api_key.'&amp;language='.$lang_code;
+                                $src = '//maps.google.com/maps/api/js?v=weekly&amp;libraries=places,geometry&amp;key='.$maps_api_key.'&amp;language='.$lang_code;
                                 $load = '<script src="'.$src.'"></script>';
                                 break;
                             
                 default:        $maps_api_key = config_db_item('maps_api_key');
-                                $src = '//maps.google.com/maps/api/js?v=3.3&amp;libraries=places,geometry&amp;key='.$maps_api_key.'&amp;language='.$lang_code;
+                                $src = '//maps.google.com/maps/api/js?v=weekly&amp;libraries=places,geometry&amp;key='.$maps_api_key.'&amp;language='.$lang_code;
                                 $load = '<script src="'.$src.'"></script>';
                                 break;
             }

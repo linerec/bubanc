@@ -11,7 +11,7 @@ Widget-preview-image: /assets/img/widgets_preview/top_popular_listings.webp
 
 $last_n = 3;
 
-$top_n_estates = $this->estate_m->get_by(array('is_activated' => 1, 'language_id'=>$lang_id, 'field_4'=>'Rent'), FALSE, $last_n, 'counter_views DESC');
+$top_n_estates = $this->estate_m->get_by(array('is_activated' => 1, 'language_id'=>$lang_id, 'field_4'=>'렌트'), FALSE, $last_n, 'counter_views DESC');
 $options_name = $this->option_m->get_lang(NULL, FALSE, $lang_id);
 
 $top_estates_num = $last_n;

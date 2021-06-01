@@ -304,12 +304,12 @@ a,
 }
 
 .section-heading span {
-  font-size: 32px;
-  font-weight: lighter;
+  font-size: 14px;
+  /* font-weight: lighter; */
   color: #333;
   float: left;
   width: 100%;
-  margin-bottom: 4px;
+  margin-bottom: -4px;
 }
 
 .section-heading h3 {
@@ -1788,7 +1788,7 @@ animation: fadeIn 0.9s; }
 }
 
 #map-container.fullwidth-home-map {
-  height: 600px;
+  height: 150px;
   margin-bottom: 0;
 }
 
@@ -2874,7 +2874,7 @@ animation: fadeIn 0.9s; }
 }
 
 #map-container.fullwidth-home-map.wmap {
-  height: 489px;
+  height: 150px;
 }
 
 /* =============== RIGHT SIDEBAR ============= */
@@ -4390,7 +4390,7 @@ header.fix {
 /* =================== form_sec ================ */
 
 .form_sec {
-  background-color: #d8d8d9;
+  background-color: var(--COLOR-GREY);
   padding: 28px 0;
 }
 
@@ -6508,11 +6508,21 @@ label.error {
   visibility: hidden;
 }
 
+.c-purpose-form-field div.form-check-inline input+label {
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  cursor:pointer;
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+
+.c-purpose-form-field div.form-check-inline input:hover+label {
+  color: var(--COLOR-RED);
+}
+
 .c-purpose-form-field div.form-check-inline input:checked+label {
   color: var(--COLOR-BLUE);
-  border-bottom: 2px solid var(--COLOR-BLUE);
+  border-bottom: 4px solid var(--COLOR-BLUE);
 }
 
 .c-purpose-form-field div.form-check-inline label {
-  font-size: 24px;
+  font-size: 28px;
 }

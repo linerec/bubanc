@@ -353,6 +353,18 @@
     />
 </url>
 <url>
+	<loc>http://localhost/bubanc/index.php/property/34/kr/1</loc>
+	<lastmod>2021-05-31T10:30:51-04:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/bubanc/index.php/property/34/en/1</loc>
+	<lastmod>2021-05-31T10:30:51-04:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
 	<loc>http://localhost/bubanc/index.php/property/33/kr</loc>
 	<lastmod>2021-05-30T07:16:17-04:00</lastmod>
 	<changefreq>monthly</changefreq>

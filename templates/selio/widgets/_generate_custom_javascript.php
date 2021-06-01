@@ -108,6 +108,7 @@ $(document).ready(function() {
         
     /* DataTable ini */
     var table = $('.data_table').DataTable({
+            "destroy": true,
             "responsive": true,
             'oLanguage': {
                 'sPrevious': "<?php _jse(lang_check('Search')); ?>",

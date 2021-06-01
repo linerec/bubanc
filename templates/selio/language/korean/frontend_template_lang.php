@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 $lang['MainBannerText'] = "부동산뱅크 똑똑이! <b>부뱅이가 모두 드립니다!</b> 모바일에서 글 등록 제공, 사진 등록 무료! 동영상 등록 무료!";
 $lang['From price'] = "From price";
@@ -12,7 +12,6 @@ $lang['Magazine Title'] = "부동산뱅크 온라인 잡지";
 $lang['Magazine Latest'] = "최신호 바로 보기";
 $lang['Magazine List'] = "부동산뱅크 이전호 보러가기";
 $lang['Youtube List'] = "YOUTUBE 채널 보러가기";
-
 $lang['Portalname'] = "pPoint";
 $lang['Portalslogan'] = "Real estate Agency<br>Portal script";
 $lang['message_sent_successfully'] = "Message sent successfully, we will contact you as soon as possible";
@@ -81,17 +80,17 @@ $lang['You can add your first property'] = "You can add your first property";
 $lang['Edit'] = "Edit";
 $lang['Delete'] = "Delete";
 $lang['Addproperty'] = "매물 추가";
-$lang['Editproperty'] = "Edit property";
+$lang['Editproperty'] = "매물 수정";
 $lang['Location'] = "Location";
 $lang['Propertydata'] = "Property data";
 $lang['Gps'] = "Gps";
-$lang['Save'] = "Save";
-$lang['Cancel'] = "Cancel";
-$lang['Are you sure?'] = "Are you sure?";
-$lang['After saving, you can add files and images'] = "After saving, you can add files and images";
+$lang['Save'] = "저장";
+$lang['Cancel'] = "취소";
+$lang['Are you sure?'] = "확실합니까?";
+$lang['After saving, you can add files and images'] = "파일/이미지는 저장 후 가능합니다.";
 $lang['Deleteselection'] = "Delete selection";
 $lang['Cancelupload'] = "Cancel upload";
-$lang['Addfiles'] = "Add files";
+$lang['Addfiles'] = "파일 추가";
 $lang['Message from real-estate web'] = "Message from real-estate web";
 $lang['Admininterface'] = "관리 페이지로 이동";
 $lang['GPS'] = "GPS";
@@ -339,10 +338,10 @@ $lang['Interested for this property'] = "Interested for this property";
 $lang['Parameters not defined!'] = "Parameters not defined!";
 $lang['Changes saved!'] = "Changes saved!";
 $lang['No values found'] = "No values found";
-$lang['treefield_64_0'] = "Select Province";
-$lang['treefield_64_1'] = "Select City";
-$lang['treefield_64_2'] = "Select Zone";
-$lang['treefield_64_3'] = "Select Neighbourhood";
+$lang['treefield_64_0'] = "주소 선택";
+$lang['treefield_64_1'] = "주를 선택해주세요";
+$lang['treefield_64_2'] = "카운티를 선택해주세요";
+$lang['treefield_64_3'] = "지역을 선택해주세요";
 $lang['Toggle navigation'] = "Toggle navigation";
 $lang['ESTATE BOOKING'] = "ESTATE BOOKING";
 $lang['My messages'] = "메시지함";
@@ -533,7 +532,7 @@ $lang['Create An Account'] = "Create An Account";
 $lang['Already on'] = "Already on";
 $lang['Contacts'] = "Contacts";
 $lang['What?'] = "What?";
-$lang['Where?'] = "위치";
+$lang['Where?'] = "도시 / 타운 또는 우편 번호 입력";
 $lang['Advertisement'] = "Advertisement";
 $lang['Perfect'] = "Perfect";
 $lang['Directory'] = "Directory";
@@ -911,3 +910,5 @@ $lang['Request info'] = "Request info";
 $lang['Other Contact Information'] = "Other Contact Information";
 $lang['212 5th Ave, New York'] = "212 5th Ave, New York";
 $lang['432 Park Ave, New York, NY 10022'] = "2160 N Central Rd #112 Fort Lee, NJ 07024";
+
+?>
