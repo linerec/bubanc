@@ -30,7 +30,8 @@ spl_autoload_register(function($classname) {
 $whitelist = array('127.0.0.1', "::1", "http://ec2-18-222-172-238.us-east-2.compute.amazonaws.com");
 
 if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
-    $config['base_url']	= 'https://www.bubanc.com';
+    //$config['base_url']	= 'https://www.bubanc.com';
+    $config['base_url'] = '';
 }else{
     $config['base_url'] = '';
 }
