@@ -64,6 +64,8 @@ class CI_Config {
 		log_message('debug', "Config Class Initialized");
 
 		// Set the base_url automatically if none was provided
+		/*
+		
 		if ($this->config['base_url'] == '')
 		{
 			if (isset($_SERVER['HTTP_HOST']))
@@ -80,6 +82,8 @@ class CI_Config {
 
 			$this->set_item('base_url', $base_url);
 		}
+
+		*/
 	}
 
 	// --------------------------------------------------------------------
