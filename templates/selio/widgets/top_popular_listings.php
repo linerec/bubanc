@@ -20,7 +20,7 @@ $CI->generate_results_array($top_n_estates, $top_estates, $options_name);
  
 ?>
 
-<section class="popular-listing hp2 section-padding widget_edit_enabled">
+<section class="popular-listing hp2 background-gray section-padding widget_edit_enabled">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">

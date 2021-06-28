@@ -390,57 +390,6 @@ class ImageResize
     }
     
     /**
-     * Crops image according to the given width, height and crop position
-     *
-     * @param integer $width
-     * @param integer $height
-     * @param boolean $allow_enlarge
-     * @param integer $position
-     * @return \static
-     */
-    public function crop($width, $height, $allow_enlarge = false, $position = self::CROPCENTER)
-    {
-        if (!$allow_enlarge) {
-            // this logic is slightly different to resize(),
-            // it will only reset dimensions to the original
-            // if that particular dimenstion is larger
-
-            if ($width > $this->getSourceWidth()) {
-                $width  = $this->getSourceWidth();
-            }
-
-            if ($height > $this->getSourceHeight()) {
-                $height = $this->getSourceHeight();
-            }
-        }
-        
-        $ratio_source = $this->getSourceWidth() / $this->getSourceHeight();
-        $ratio_dest = $width / $height;
-        
-        if ($ratio_dest < $ratio_source) {
-            $this->resizeToHeight($height, $allow_enlarge);
-
-            $excess_width = ($this->getDestWidth() - $width) / $this->getDestWidth() * $this->getSourceWidth();
-
-            $this->source_w = $this->getSourceWidth() - $excess_width;
-            $this->source_x = $this->getCropPosition($excess_width, $position);
-
-            $this->dest_w = $width;
-        } else {
-            $this->resizeToWidth($width, $allow_enlarge);
-
-            $excess_height = ($this->getDestHeight() - $height) / $this->getDestHeight() * $this->getSourceHeight();
-
-            $this->source_h = $this->getSourceHeight() - $excess_height;
-            $this->source_y = $this->getCropPosition($excess_height, $position);
-
-            $this->dest_h = $height;
-        }
-
-        return $this;
-    }
-    
-    /**
      * Gets source width
      *
      * @return integer
@@ -500,6 +449,57 @@ class ImageResize
                 break;
         }
         return $size;
+    }
+
+    /**
+     * Crops image according to the given width, height and crop position
+     *
+     * @param integer $width
+     * @param integer $height
+     * @param boolean $allow_enlarge
+     * @param integer $position
+     * @return \static
+     */
+    public function crop($width, $height, $allow_enlarge = false, $position = self::CROPCENTER)
+    {
+        if (!$allow_enlarge) {
+            // this logic is slightly different to resize(),
+            // it will only reset dimensions to the original
+            // if that particular dimenstion is larger
+
+            if ($width > $this->getSourceWidth()) {
+                $width  = $this->getSourceWidth();
+            }
+
+            if ($height > $this->getSourceHeight()) {
+                $height = $this->getSourceHeight();
+            }
+        }
+        
+        $ratio_source = $this->getSourceWidth() / $this->getSourceHeight();
+        $ratio_dest = $width / $height;
+        
+        if ($ratio_dest < $ratio_source) {
+            $this->resizeToHeight($height, $allow_enlarge);
+
+            $excess_width = ($this->getDestWidth() - $width) / $this->getDestWidth() * $this->getSourceWidth();
+
+            $this->source_w = $this->getSourceWidth() - $excess_width;
+            $this->source_x = $this->getCropPosition($excess_width, $position);
+
+            $this->dest_w = $width;
+        } else {
+            $this->resizeToWidth($width, $allow_enlarge);
+
+            $excess_height = ($this->getDestHeight() - $height) / $this->getDestHeight() * $this->getSourceHeight();
+
+            $this->source_h = $this->getSourceHeight() - $excess_height;
+            $this->source_y = $this->getCropPosition($excess_height, $position);
+
+            $this->dest_h = $height;
+        }
+
+        return $this;
     }
 }
 

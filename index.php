@@ -31,6 +31,7 @@ if( (strpos(dirname(__FILE__), '\xampp') === FALSE && $strict_development_mode =
     define('ENVIRONMENT', 'production');
 }
 else
+
 {
     define('ENVIRONMENT', 'development');
 }

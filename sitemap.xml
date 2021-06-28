@@ -353,50 +353,62 @@
     />
 </url>
 <url>
+	<loc>http://localhost/bubanc/index.php/property/35/kr/2</loc>
+	<lastmod>2021-06-04T05:07:19-04:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://localhost/bubanc/index.php/property/35/en</loc>
+	<lastmod>2021-06-04T05:07:19-04:00</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
 	<loc>http://localhost/bubanc/index.php/property/34/kr/1</loc>
-	<lastmod>2021-05-31T10:30:51-04:00</lastmod>
+	<lastmod>2021-06-04T04:53:26-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/34/en/1</loc>
-	<lastmod>2021-05-31T10:30:51-04:00</lastmod>
+	<lastmod>2021-06-04T04:53:26-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/33/kr</loc>
-	<lastmod>2021-05-30T07:16:17-04:00</lastmod>
+	<lastmod>2021-06-04T04:53:14-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/33/en</loc>
-	<lastmod>2021-05-30T07:16:17-04:00</lastmod>
+	<lastmod>2021-06-04T04:53:14-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/32/kr</loc>
-	<lastmod>2021-05-30T06:27:19-04:00</lastmod>
+	<lastmod>2021-06-04T04:53:03-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/32/en</loc>
-	<lastmod>2021-05-30T06:27:19-04:00</lastmod>
+	<lastmod>2021-06-04T04:53:03-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/31/kr</loc>
-	<lastmod>2021-02-27T01:56:37-05:00</lastmod>
+	<lastmod>2021-06-04T04:52:49-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>http://localhost/bubanc/index.php/property/31/en/veterans_way</loc>
-	<lastmod>2021-02-27T01:56:37-05:00</lastmod>
+	<lastmod>2021-06-04T04:52:49-04:00</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>

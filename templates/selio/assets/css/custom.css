@@ -5419,6 +5419,7 @@ body .banner-search {
 
 body .banner-search.row {
   display: flex !important;
+  border-radius: 4px;
 }
 
 .alert {
@@ -5995,9 +5996,9 @@ ul.post-nfo a:hover {
 }
 
 .popular-listing .card {
-  -webkit-transition: all 0.6s linea 0.4s;
-  -o-transition: all 0.6s linear 0.4s;
-  transition: all 0.6s linear 0.4s;
+  -webkit-transition: all 0.6s linea 0.2s;
+  -o-transition: all 0.6s linear 0.2s;
+  transition: all 0.6s linear 0.2s;
 }
 
 .bottom-logo > div.content {

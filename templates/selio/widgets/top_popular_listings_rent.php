@@ -20,9 +20,9 @@ $CI->generate_results_array($top_n_estates, $top_estates, $options_name);
  
 ?>
 
-<section class="popular-listing hp4 section-padding widget_edit_enabled">
+<section class="popular-listing hp4 background-gray section-padding widget_edit_enabled">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-xl-6">
                 <div class="section-heading">
                     <span><?php echo lang_check('Discover');?></span>

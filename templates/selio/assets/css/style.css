@@ -320,6 +320,13 @@ a,
   margin-top: -4px;
 }
 
+.bubanc-card-body {
+  transition: all 0.6s linear 0.2s;
+}
+.bubanc-card-body:hover {
+  box-shadow: 0px 4px 25px 0px rgb(0 0 0 / 19%);
+}
+
 .card {
   border-radius: 0px;
   position: relative;
@@ -609,14 +616,15 @@ header.pb .menu-button span {
   top: 2px;
 }
 
+
 .banner {
-  /* background: url("../images/banner/1.webp"); */
+  background: url("../images/banner/1.webp");
   background-size: cover;
   background-position: center;
   min-height: 200px;
   position: relative;
   z-index: 10;
-  padding: 55px 0;
+  padding: 150px 0;
 }
 
 .banner::after {
@@ -628,6 +636,10 @@ header.pb .menu-button span {
   bottom: 0;
   /* background: rgba(7, 15, 67, 0.8); */
   z-index: -1;
+}
+
+.banner .banner-main {
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
 }
 
 .banner .container {
@@ -652,6 +664,7 @@ header.pb .menu-button span {
 
 .banner-content h2 {
   font-size: 40px;
+  color: #fff;
 }
 
 .banner.hp2 {
@@ -5293,6 +5306,13 @@ header.pb .header .navbar-nav .submit-btn a:hover {
 
 .popular-listing.hp2 {
   padding: 60px 0;
+}
+
+.popular-listing.background-white {
+  background-color: #fff;
+}
+
+.popular-listing.background-gray {
   background-color: #f5f5f5;
 }
 
@@ -6023,7 +6043,7 @@ header.pb .header .navbar-nav .submit-btn a:hover {
 }
 
 .explore-feature.hp7.section-padding {
-  padding: 0;
+  padding: 60px;
 }
 
 .popular-cities.hp7.section-padding .card {
@@ -6502,6 +6522,7 @@ label.error {
 .c-purpose-form-field {
   flex-basis: 100% !important;
   margin-top: 10px;
+  border-bottom: 2px solid var(--COLOR-GREY);
 }
 
 .c-purpose-form-field div.form-check-inline input {
@@ -6524,5 +6545,5 @@ label.error {
 }
 
 .c-purpose-form-field div.form-check-inline label {
-  font-size: 28px;
+  font-size: 20px;
 }

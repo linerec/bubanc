@@ -9,8 +9,10 @@ Widget-preview-image: /assets/img/widgets_preview/top_search_over_image.webp
         <div class="row">
             <div class="col-lg-12">
                 <div class="banner-content">
-                    <h2><?php echo lang_check('Discover best properties in one place');?></h2>
+                    <h2 class="banner-main"><?php echo lang_check('Discover best properties in one place');?></h2>
                 </div>
+            </div>
+            <div class="offset-lg-2 col-lg-8">
                 <form action="#" class="row banner-search search-form top-search">
                     {is_logged_other}
                     <?php if ($this->session->userdata('type') == 'ADMIN'): ?>

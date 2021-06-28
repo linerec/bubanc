@@ -1,10 +1,10 @@
 <?php
 /*
-Widget-title: Explore Features
+Widget-title: Explore Bubanc Features
 Widget-preview-image: /assets/img/widgets_preview/top_explore_features_html.webp
  */
 ?>
-<section class="explore-feature hp7 section-padding widget_edit_enabled">
+<section class="hp7 section-padding widget_edit_enabled">
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
@@ -18,8 +18,8 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features_html.webp
             <div class="col-xl-4 col-sm-6 col-md-6 col-lg-4">
                 <a href="#" title="">
                     <div class="card">
-                        <div class="card-body">
-                            <i class="icon-home"></i>
+                        <div class="card-body bubanc-card-body">
+                            <img src="assets/images/banner_main/03.png" class="card-img-top" alt="banner_main_01">
                             <h3><?php echo lang_check('Perfect Tools');?></h3>
                             <p><?php echo lang_check('explore_perfect_description');?></p>
                         </div>
@@ -29,8 +29,8 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features_html.webp
             <div class="col-xl-4 col-sm-6 col-md-6 col-lg-4">
                 <a href="#" title="">
                     <div class="card">
-                        <div class="card-body">
-                            <i class="icon-cursor"></i>
+                        <div class="card-body bubanc-card-body">
+                            <img src="assets/images/banner_main/01.png" class="card-img-top" alt="banner_main_01">
                             <h3><?php echo lang_check('Search in Click');?></h3>
                             <p><?php echo lang_check('explore_perfect_search');?></p>
                         </div>
@@ -40,8 +40,8 @@ Widget-preview-image: /assets/img/widgets_preview/top_explore_features_html.webp
             <div class="col-xl-4 col-sm-6 col-md-6 col-lg-4">
                 <a href="#" title="">
                     <div class="card">
-                        <div class="card-body">
-                            <i class="icon-lock"></i>
+                        <div class="card-body bubanc-card-body">
+                            <img src="assets/images/banner_main/02.png" class="card-img-top" alt="banner_main_01">
                             <h3><?php echo lang_check('User Control');?></h3>
                             <p><?php echo lang_check('explore_perfect_control');?></p>
                         </div>
